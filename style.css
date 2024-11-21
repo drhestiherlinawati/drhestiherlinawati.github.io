@@ -1,0 +1,152 @@
+body{
+	background:#FFB8BF;
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+
+#header{
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    row-gap: 3vh;
+}
+
+#dpfp{
+    display: flex;
+    width:100vw;
+    margin-top: 5vh;
+}
+
+#pfp{
+    width: 15vw;
+    border-radius: 50%;
+    float: left;
+}
+
+#menuPilih{
+    margin-right: 15vw;
+    width: 100vw;
+    text-align: center;
+}
+
+.tombolPilih{
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.tombolPilih:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+
+.pilihan{
+  display: none;
+  background-color: #FFB8BF;
+  z-index: 1;
+}
+
+#sip1{
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-top: 5vh;
+    height: 10vh;
+    padding:0;
+    width: 25vw;
+}
+.gambarKmsc{
+    height: 10vh;
+    display: block;
+    width: 25vw;
+    
+}
+
+#sip2{
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    height: 10vh;
+    width: 25vw;
+    padding: 0;
+}
+
+.gambarCamad{
+    height: 10vh;
+    display: block;
+    width: 25vw;
+}
+
+.show{
+    display: flex
+}
+
+.icare{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20vw;
+}
+
+.icdata{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3vh;
+}
+
+.myKlinik{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20vw;
+}
+
+.mytombol{
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 1vw;
+    row-gap: 1vh;
+    width: 100%;
+}
+
+.mydata{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3vh;
+}
+
+.inm{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20vw;
+}
+
+.indata{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3vh;
+}
