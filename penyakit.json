@@ -1,0 +1,612 @@
+[
+  {
+    "nama": "Hipertensi",
+    "soap": {
+      "subjektif": "Pasien mengeluh pusing dan sakit kepala bagian belakang sejak 3 hari terakhir. Keluhan dirasakan terutama saat pagi hari. Pasien juga mengeluh mudah lelah dan penglihatan kadang kabur. Riwayat hipertensi sejak 5 tahun lalu, saat ini belum terkontrol dengan baik. Pasien mengaku jarang kontrol dan tidak rutin minum obat.",
+      "objektif": "TD: 160/100 mmHg, N: 88 x/menit, RR: 20 x/menit, S: 36.5°C. Konjungtiva tidak anemis, sklera tidak ikterik. Pada pemeriksaan funduskopi terdapat tanda-tanda retinopati hipertensi grade II. Tidak ditemukan edema ekstremitas. IMT: 28.5 (overweight).",
+      "assesment": "Hipertensi esensial stadium II dengan retinopati hipertensi grade II dan risiko kardiovaskular sedang-tinggi.",
+      "planning_non_medik": "1. Edukasi pasien tentang pentingnya kontrol tekanan darah rutin. 2. Anjurkan diet rendah garam (≤2 gram/hari) dan rendah lemak. 3. Motivasi untuk menurunkan berat badan (target IMT <25). 4. Latihan fisik teratur (jalan cepat 30 menit/hari, 5x/minggu). 5. Manajemen stres dan teknik relaksasi. 6. Hindari merokok dan alkohol.",
+      "planning_medik": "1. Amlodipine 10 mg 1x1 (ditingkatkan dari dosis sebelumnya). 2. Captopril 25 mg 3x1 (tambahan untuk kontrol yang lebih baik). 3. Evaluasi fungsi ginjal dan elektrolit dalam 2 minggu. 4. Kontrol ulang dalam 1 minggu untuk evaluasi tekanan darah. 5. Rujuk ke spesialis jantung jika tekanan darah masih belum terkontrol."
+    }
+  },
+  {
+    "nama": "Diabetes Melitus Tipe 2",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan sering buang air kecil, sering haus, dan berat badan menurun dalam 2 bulan terakhir. Pasien juga mengeluh kesemutan di ujung jari tangan dan kaki. Riwayat keluarga dengan diabetes melitus. Pasien mengaku jarang berolahraga dan pola makan tinggi karbohidrat sederhana. Tidak rutin kontrol gula darah.",
+      "objektif": "GDS: 280 mg/dL, GD Puasa: 160 mg/dL, HbA1c: 8.5%. TD: 130/85 mmHg, N: 80 x/menit. IMT: 26.8 (overweight). Pemeriksaan fisik: tidak ditemukan ulkus diabetikum, reflek patella menurun, sensasi raba di ekstremitas distal menurun. Hasil lab: kolesterol total 220 mg/dL, trigliserida 180 mg/dL.",
+      "assesment": "Diabetes Melitus Tipe 2 dengan kontrol glikemik buruk (HbA1c 8.5%) dan neuropati diabetikum perifer ringan. Dislipidemia campuran.",
+      "planning_non_medik": "1. Edukasi DM lengkap (penyakit, pengobatan, komplikasi, tanda bahaya). 2. Konsultasi diet ke ahli gizi: diet diabetes (karbohidrat kompleks, tinggi serat). 3. Anjurkan aktivitas fisik teratur (minimal 150 menit/minggu). 4. Edukasi perawatan kaki untuk mencegah ulkus. 5. Monitor gula darah mandiri. 6. Manajemen stres.",
+      "planning_medik": "1. Metformin 500 mg 2x1 (dapat ditingkatkan hingga 1000 mg 2x1). 2. Glimepiride 2 mg 1x1 (tambahan jika gula darah masih tinggi). 3. Atorvastatin 20 mg 1x1 untuk dislipidemia. 4. Vitamin B kompleks 1x1 untuk neuropati. 5. Kontrol gula darah dan HbA1c dalam 3 bulan. 6. Evaluasi fungsi ginjal dan mata dalam 6 bulan."
+    }
+  },
+  {
+    "nama": "ISPA",
+    "soap": {
+      "subjektif": "Pasien mengeluh batuk berdahak, hidung tersumbat, dan nyeri tenggorokan sejak 3 hari lalu. Batuk semakin memberat, terutama di malam hari. Pasien juga mengeluh demam naik turun, badan terasa pegal-pegal, dan lemas. Tidak ada riwayat alergi. Pasien merokok 10 batang/hari.",
+      "objektif": "S: 38.2°C, N: 92 x/menit, RR: 22 x/menit, TD: 120/80 mmHg. Tampak lemas, faring hiperemis, tonsil T1-T1. Auskultasi paru: vesikuler dengan suara napas kasar di basal kanan. Tidak ditemukan wheezing atau ronkhi. Uji rapid test COVID-19: negatif.",
+      "assesment": "ISPA akut (probabilitas infeksi virus) dengan bronkitis ringan dan gejala sistemik. Faktor risiko: perokok aktif.",
+      "planning_non_medik": "1. Edukasi tentang istirahat cukup (minimal 8 jam/hari). 2. Anjurkan konsumsi air putih hangat minimal 2 liter/hari. 3. Gunakan masker saat keluar rumah. 4. Hindari merokok dan paparan asap. 5. Konsumsi makanan bergizi seimbang. 6. Jaga kebersihan tangan dan etika batuk.",
+      "planning_medik": "1. Paracetamol 500 mg 3x1 jika demam >38°C. 2. Bromhexine 8 mg 3x1 sebagai mukolitik. 3. CTM 4 mg 2x1 untuk mengatasi gejala alergi. 4. Vitamin C 500 mg 1x1. 5. Jika batuk tidak membaik dalam 3 hari, pertimbangkan antibiotik. 6. Kontrol jika demam >38.5°C atau sesak nafas."
+    }
+  },
+  {
+    "nama": "Gastritis",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri ulu hati dan perut bagian atas yang terasa perih, terutama saat perut kosong atau setelah makan makanan pedas/asam. Keluhan dirasakan sejak 1 minggu terakhir, memberat dalam 2 hari terakhir. Pasien juga mengeluh mual, perut kembung, dan sering sendawa. Riwayat konsumsi NSAID untuk nyeri sendi. Pasien sering mengonsumsi minuman berkafein dan makanan pedas.",
+      "objektif": "TD: 110/70 mmHg, N: 76 x/menit, RR: 18 x/menit, S: 36.8°C. Abdomen: nyeri tekan epigastrium, tidak ada tanda peritoneal, bising usus normal. Tidak ditemukan melena atau hematemesis. Pemeriksaan laboratorium: Hb 14 g/dL, leukosit 8.000/µL.",
+      "assesment": "Gastritis akut erosif terkait penggunaan NSAID dan pola makan yang tidak tepat. Faktor risiko: kebiasaan makan pedas dan kafein.",
+      "planning_non_medik": "1. Edukasi tentang pentingnya pola makan teratur (3x sehari + 2x snack). 2. Hindari makanan pedas, asam, berlemak, dan berkafein. 3. Hindari NSAID, ganti dengan paracetamol jika perlu. 4. Kelola stres dengan relaksasi. 5. Tidak merokok dan menghindari alkohol. 6. Makan dalam porsi kecil tapi sering.",
+      "planning_medik": "1. Omeprazole 20 mg 1x1 (sebelum makan). 2. Antasida 1x1 jika nyeri kambuh. 3. Sucralfate 1g 3x1 (1 jam sebelum makan) untuk perlindungan mukosa. 4. Evaluasi ulang dalam 2 minggu. 5. Jika tidak membaik, pertimbangkan endoskopi. 6. Test H. pylori jika perlu."
+    }
+  },
+  {
+    "nama": "Migrain",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan sakit kepala hebat berdenyut di sebelah kanan kepala sejak 3 jam yang lalu. Nyeri semakin memberat dengan aktivitas fisik dan cahaya terang. Pasien juga mengeluh mual dan muntah 2x. Riwayat migrain sejak remaja, dipicu oleh kelelahan dan kurang tidur. Saat ini dalam kondisi menstruasi.",
+      "objektif": "TD: 125/80 mmHg, N: 78 x/menit, RR: 18 x/menit, S: 36.5°C. Tampak kesakitan, reflek cahaya positif (menutup mata saat cahaya terang). Neurologis: tidak ada defisit fokal, pupil isokor, tidak ada nistagmus. Tidak ditemukan kaku kuduk.",
+      "assesment": "Migrain akut tanpa aura dengan gejala otonom (mual muntah) dan fotofobia. Status: migrain fase serangan.",
+      "planning_non_medik": "1. Edukasi tentang migrain dan pemicunya (kelelahan, stres, hormon, makanan tertentu). 2. Istirahat di ruangan yang gelap dan tenang. 3. Kompres dingin di kepala. 4. Hindari aktivitas berat dan cahaya terang. 5. Catat buku harian migrain untuk mengidentifikasi pemicu. 6. Teknik relaksasi dan manajemen stres.",
+      "planning_medik": "1. Sumatriptan 50 mg 1x1 (pada awal serangan). 2. Paracetamol 500 mg 3x1 jika nyeri tidak tertahankan. 3. Metoclopramide 10 mg 3x1 untuk mengatasi mual. 4. Kontrol dalam 1 bulan atau jika serangan >4x/bulan. 5. Pertimbangkan profilaksis jika serangan sering: Propranolol 40 mg 2x1."
+    }
+  },
+  {
+    "nama": "Dermatitis Kontak",
+    "soap": {
+      "subjektif": "Pasien mengeluh kulit gatal hebat disertai kemerahan dan bengkak di daerah tangan kanan. Keluhan muncul setelah kontak dengan deterjen baru. Kulit terasa panas dan perih. Tidak ada riwayat alergi sebelumnya. Pasien bekerja sebagai petugas kebersihan dan sering kontak dengan bahan kimia.",
+      "objektif": "Pada ekstremitas superior kanan tampak lesi eritematosa, edema, vesikel kecil, dan krusta di beberapa tempat. Tidak ditemukan tanda infeksi sekunder. Pemeriksaan: dermografisme negatif, tidak ada limfadenopati regional. Suhu tubuh normal.",
+      "assesment": "Dermatitis kontak iritan akut di tangan kanan akibat paparan deterjen. Derajat ringan-sedang, tanpa infeksi sekunder.",
+      "planning_non_medik": "1. Edukasi penggunaan APD (sarung tangan) saat bekerja. 2. Hindari kontak dengan bahan iritan. 3. Cuci tangan dengan sabun mild setelah kontak. 4. Jangan garuk lesi untuk mencegah infeksi. 5. Gunakan kompres dingin untuk mengurangi rasa gatal. 6. Identifikasi dan hindari alergen.",
+      "planning_medik": "1. Krim hidrokortison 1% 2x1 pada lesi. 2. Antihistamin oral: Cetirizine 10 mg 1x1. 3. Pelembab (emolien) untuk menjaga kulit. 4. Jika gatal hebat: Hydroxyzine 25 mg. 5. Kontrol dalam 3 hari, jika tidak membaik pertimbangkan steroid sistemik. 6. Tes tempel jika perlu."
+    }
+  },
+  {
+    "nama": "Osteoarthritis Lutut",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri di lutut kiri yang semakin memberat saat berjalan dan naik turun tangga. Nyeri dirasakan sejak 6 bulan terakhir. Lutut terasa kaku terutama saat bangun tidur (morning stiffness) dan saat memulai berjalan. Pasien juga mengeluh lutut berbunyi (krepitasi) saat digerakkan. IMT: 30 (obesitas).",
+      "objektif": "Pemeriksaan lutut kiri: nyeri tekan pada sendi, krepitasi, pembengkakan ringan, dan keterbatasan gerak (fleksi 110°, ekstensi -5°). Tidak ditemukan efusi, tanda inflamasi akut (-). X-ray lutut (tidak tersedia): diduga osteofit dan penyempitan celah sendi. TD: 140/90 mmHg, N: 72 x/menit.",
+      "assesment": "Osteoarthritis lutut kiri (Kellgren-Lawrence grade II) dengan faktor risiko obesitas dan usia (50 tahun). Nyeri fungsional derajat sedang.",
+      "planning_non_medik": "1. Edukasi tentang osteoarthritis dan manajemennya. 2. Target menurunkan berat badan (IMT <25). 3. Latihan fisik teratur: jalan santai, renang, atau sepeda statis. 4. Fisioterapi: latihan penguatan otot quadriceps. 5. Hindari aktivitas high impact (lari, lompat). 6. Gunakan alat bantu (tongkat) jika perlu.",
+      "planning_medik": "1. Paracetamol 500 mg 3x1 untuk nyeri (maksimal 4x/hari). 2. Jika nyeri tidak terkontrol: NSAID topikal (Diclofenac gel). 3. Glukosamin 1500 mg 1x1 (opsional). 4. Kontrol dalam 2 minggu, jika tidak membaik pertimbangkan injeksi steroid intraartikular. 5. Rujuk ke spesialis ortopedi jika perlu operasi."
+    }
+  },
+  {
+    "nama": "Asma Bronkial",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan sesak napas dan mengi (wheezing) yang memberat dalam 2 hari terakhir. Sesak dirasakan terutama pada malam hari dan pagi hari. Pasien juga mengeluh batuk kering, dada terasa berat, dan tidak tahan dengan bau-bauan. Riwayat asma sejak anak-anak, namun jarang kambuh dalam 1 tahun terakhir. Pasien sedang mengalami pilek.",
+      "objektif": "RR: 28 x/menit, N: 100 x/menit, S: 36.8°C, TD: 130/85 mmHg. SpO2: 95% (udara ruangan). Auskultasi paru: wheezing ekspirasi di seluruh lapang paru, vesikuler menurun di basal. Tidak ada sianosis, penggunaan otot bantu napas minimal. Peak flow: 250 L/menit (prediksi 350 L/menit).",
+      "assesment": "Eksaserbasi asma bronkial ringan-sedang (GINA grade II) yang dipicu oleh infeksi saluran napas atas. Kontrol asma: kurang terkontrol.",
+      "planning_non_medik": "1. Edukasi pengenalan tanda bahaya asma. 2. Hindari faktor pemicu (debu, asap, bau-bauan, perubahan cuaca). 3. Teknik pernapasan diafragma. 4. Olahraga teratur dengan pemanasan yang cukup. 5. Identifikasi dan hindari alergen. 6. Konsultasi gizi untuk menjaga berat badan ideal.",
+      "planning_medik": "1. Inhaler salbutamol 2 puff (100 mcg) setiap 4-6 jam sesuai kebutuhan. 2. Budesonide inhalasi 200 mcg 2x1 (kontroler). 3. Jika tidak membaik dalam 2 hari: prednison 30 mg 1x1 selama 5 hari. 4. Peak flow monitoring 2x sehari. 5. Kontrol dalam 1 minggu untuk evaluasi. 6. Jika kontrol asma masih buruk, pertimbangkan step up therapy."
+    }
+  },
+  {
+    "nama": "Anemia Defisiensi Besi",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan mudah lelah, pusing, dan palpitasi saat beraktivitas sejak 2 bulan terakhir. Pasien juga mengeluh pucat, kuku rapuh, dan rambut rontok. Riwayat menstruasi berat (menorrhagia) sejak 6 bulan lalu. Pasien vegetarian dan jarang makan daging. Tidak ada riwayat perdarahan gastrointestinal.",
+      "objektif": "Konjungtiva palpebra pucat, kuku tampak rapuh dan cekung (koilonychia). TD: 100/65 mmHg, N: 92 x/menit, RR: 20 x/menit. Lab: Hb 9 g/dL, MCV 75 fL, feritin 8 ng/mL, serum iron 40 µg/dL, TIBC 450 µg/dL. Saturasi transferin 8.9%. Tidak ditemukan melena atau perdarahan aktif.",
+      "assesment": "Anemia mikrositik hipokromik defisiensi besi (Hb 9 g/dL) yang diperberat oleh menorrhagia dan diet vegetarian. Status: anemia sedang.",
+      "planning_non_medik": "1. Edukasi tentang anemia defisiensi besi dan pentingnya nutrisi. 2. Konsultasi gizi: perbanyak makanan kaya zat besi (bayam, hati, daging merah) dan vitamin C (jeruk, tomat). 3. Modifikasi diet: hindari teh/kopi saat makan. 4. Istirahat cukup dan hindari aktivitas berat. 5. Konseling reproduksi untuk mengatasi menorrhagia.",
+      "planning_medik": "1. Suplementasi besi: ferrous sulfate 300 mg (60 mg elemental Fe) 3x1 selama 3-6 bulan. 2. Vitamin C 500 mg 1x1 (membantu absorbsi). 3. Evaluasi Hb dalam 1 bulan. 4. Rujuk ke spesialis obgyn untuk evaluasi menorrhagia. 5. Evaluasi feritin dalam 3 bulan. 6. Jika Hb <8 g/dL, pertimbangkan transfusi."
+    }
+  },
+  {
+    "nama": "Bronkitis Akut",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan batuk berdahak (warna kekuningan) yang memberat dalam 4 hari terakhir. Batuk disertai sesak napas dan nyeri dada saat batuk. Pasien juga mengeluh demam, badan terasa tidak enak, dan nafsu makan menurun. Riwayat ISPA 1 minggu sebelumnya. Pasien merokok 15 batang/hari.",
+      "objektif": "S: 38.5°C, N: 96 x/menit, RR: 24 x/menit, TD: 130/80 mmHg. Auskultasi paru: bronkovesikuler, ronkhi basah halus di basal kanan, tidak ada wheezing. Foto thorax: infiltrat peribronkial. SpO2: 94% (udara ruangan). Warna sputum: kehijauan.",
+      "assesment": "Bronkitis akut (kemungkinan infeksi bakteri sekunder) dengan gejala sistemik. Faktor risiko: merokok aktif. Status: infeksi saluran napas bagian bawah.",
+      "planning_non_medik": "1. Edukasi berhenti merokok total. 2. Istirahat cukup dan hindari kelelahan. 3. Minum air putih hangat 2-3 liter/hari. 4. Gunakan masker saat keluar rumah. 5. Jaga kebersihan dan ventilasi ruangan. 6. Hindari paparan asap dan polusi.",
+      "planning_medik": "1. Amoxicillin 500 mg 3x1 selama 7 hari (jika etiologi bakteri). 2. Bromhexine 8 mg 3x1 (mukolitik). 3. Paracetamol 500 mg 3x1 jika demam >38.5°C. 4. Salbutamol inhaler 2 puff 3x1 jika sesak. 5. Kontrol dalam 3 hari, jika tidak membaik pertimbangkan kultur sputum. 6. Evaluasi foto thorax dalam 4-6 minggu."
+    }
+  },
+  {
+    "nama": "Konjungtivitis",
+    "soap": {
+      "subjektif": "Pasien mengeluh mata merah, berair, dan terasa gatal sejak 2 hari lalu. Keluar kotoran mata berwarna kekuningan terutama saat bangun tidur. Pasien juga mengeluh penglihatan sedikit kabur dan sensitif terhadap cahaya. Riwayat kontak dengan anggota keluarga yang mengalami gejala serupa. Pasien menggunakan lensa kontak.",
+      "objektif": "Konjungtiva palpebra dan bulbar hiperemis, edema palpebra ringan, discharge purulen di kedua mata. Kornea jernih, refleks pupil normal, tidak ada ulkus. Visus: 6/6 (kanan dan kiri) dengan koreksi. Tidak ada limfadenopati preaurikular.",
+      "assesment": "Konjungtivitis bakterial akut bilateral (probabilitas tinggi) dengan komplikasi ringan. Faktor risiko: penggunaan lensa kontak.",
+      "planning_non_medik": "1. Edukasi kebersihan mata dan tangan. 2. Jangan berbagi handuk atau alat kosmetik mata. 3. Gunakan tisu sekali pakai untuk membersihkan mata. 4. Hindari pemakaian lensa kontak sampai sembuh. 5. Kompres hangat untuk mengurangi ketidaknyamanan. 6. Istirahat mata dan kurangi penggunaan gadget.",
+      "planning_medik": "1. Tetes mata antibiotik: Chloramphenicol 0.5% 2 tetes 4x1. 2. Jika gatal: tetes mata antihistamin. 3. Kontrol dalam 2 hari. 4. Jika tidak membaik, pertimbangkan kultur. 5. Edukasi tanda bahaya: jika nyeri hebat atau penurunan visus, segera rujuk."
+    }
+  },
+  {
+    "nama": "Otitis Media Akut",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri telinga kanan yang hebat sejak 1 hari lalu, disertai demam dan rasa penuh di telinga. Pasien juga mengeluh pendengaran menurun dan keluar cairan dari telinga. Riwayat pilek 3 hari sebelumnya. Pasien adalah anak-anak (5 tahun).",
+      "objektif": "S: 38.8°C, N: 110 x/menit, RR: 24 x/menit, TD: 100/70 mmHg. Otoskopi: membran timpani hiperemis, bulging, dan tidak ada perforasi. Uji garpu tala: Rinne negatif, Weber lateralisasi ke kanan. Tidak ditemukan kelainan pada telinga kiri. Reaksi pupil normal.",
+      "assesment": "Otitis media akut unilateral kanan (probabilitas infeksi bakteri) dengan efusi telinga tengah. Status: infeksi telinga tengah akut.",
+      "planning_non_medik": "1. Edukasi orangtua tentang tanda bahaya. 2. Hindari air masuk ke telinga. 3. Istirahat cukup dan makan bergizi. 4. Kompres hangat di luar telinga untuk mengurangi nyeri. 5. Jaga kebersihan telinga. 6. Pantau suhu tubuh.",
+      "planning_medik": "1. Amoxicillin 50 mg/kgBB/hari dibagi 3 dosis selama 7 hari. 2. Paracetamol 15 mg/kgBB 3x1 jika demam. 3. Obat tetes telinga antibiotik (jika perforasi). 4. Kontrol dalam 3 hari. 5. Jika tidak membaik, pertimbangkan drainase. 6. Evaluasi pendengaran dalam 1 bulan."
+    }
+  },
+  {
+    "nama": "Sinusitis",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri tekan di daerah pipi dan dahi, hidung tersumbat, dan sakit kepala sejak 1 minggu. Keluar ingus kental berwarna kekuningan dari hidung. Pasien juga mengeluh demam ringan, kelelahan, dan bau mulut. Riwayat alergi dan sering pilek.",
+      "objektif": "S: 37.8°C, N: 80 x/menit, TD: 120/75 mmHg. Tampak sekret purulen di meatus medius, mukosa hidung hiperemis dan edema. Perkusi sinus maksila dan frontal: nyeri. Transiluminasi: positif. Tidak ditemukan kelainan pada mata atau neurologis.",
+      "assesment": "Sinusitis akut (kemungkinan infeksi bakteri) dengan gejala klinis khas. Faktor risiko: alergi dan infeksi saluran napas atas berulang.",
+      "planning_non_medik": "1. Edukasi tentang sinusitis dan pencegahannya. 2. Irigasi hidung dengan saline 2-3x/hari. 3. Istirahat dan hidrasi yang cukup. 4. Hindari alergen dan iritan. 5. Kompres hangat di area sinus. 6. Posisi kepala lebih tinggi saat tidur.",
+      "planning_medik": "1. Amoxicillin 500 mg 3x1 selama 10 hari. 2. Pseudoephedrine 60 mg 3x1 (dekongestan). 3. NSAID (Ibuprofen 400 mg 3x1) untuk nyeri. 4. Kortikosteroid nasal spray 1x1. 5. Kontrol dalam 5 hari. 6. Jika tidak membaik: CT scan sinus dan rujuk THT."
+    }
+  },
+  {
+    "nama": "Faringitis",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri tenggorokan, kesulitan menelan, dan demam sejak 2 hari lalu. Pasien juga mengeluh tubuh terasa lemah dan nafsu makan menurun. Tidak ada batuk atau pilek. Pasien mengeluh tenggorokan terasa kering dan gatal.",
+      "objektif": "S: 38.2°C, N: 88 x/menit, TD: 115/75 mmHg. Faring hiperemis, tonsil T2-T2 dengan eksudat purulen, uvula normal. Tidak ditemukan pembesaran KGB servikal. Auskultasi paru: normal. Rapid test streptokokus: negatif.",
+      "assesment": "Faringitis akut (kemungkinan infeksi virus) dengan gejala sistemik. Tidak ada bukti infeksi streptokokus.",
+      "planning_non_medik": "1. Istirahat cukup. 2. Minum air putih hangat dan banyak. 3. Hindari makanan pedas dan asam. 4. Kumur dengan air garam hangat 3x/hari. 5. Gunakan humidifier di ruangan. 6. Hindari merokok dan paparan asap.",
+      "planning_medik": "1. Paracetamol 500 mg 3x1 untuk demam dan nyeri. 2. Ibuprofen 400 mg 3x1 (jika tidak ada kontraindikasi). 3. Antihistamin jika ada alergi. 4. Vitamin C dan zinc. 5. Kontrol dalam 3 hari jika tidak membaik. 6. Antibiotik hanya jika terbukti infeksi bakteri."
+    }
+  },
+  {
+    "nama": "Tonsilitis",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri tenggorokan hebat, demam tinggi, dan kesulitan menelan sejak 1 hari yang lalu. Pasien juga mengeluh badan terasa tidak enak dan nafsu makan menurun. Terdapat riwayat tonsilitis berulang. Pasien mengeluh bau mulut.",
+      "objektif": "S: 39.2°C, N: 95 x/menit, RR: 20 x/menit, TD: 115/70 mmHg. Tonsil T3-T3 dengan eksudat putih kekuningan, hiperemis, edema. Uvula edema, faring hiperemis. Terdapat pembesaran KGB servikal anterior dan posterior. Tidak ditemukan kelainan pada sistem organ lain.",
+      "assesment": "Tonsilitis akut berat (probabilitas infeksi streptokokus atau virus). Faktor risiko: tonsilitis berulang.",
+      "planning_non_medik": "1. Edukasi tentang pentingnya istirahat. 2. Minum banyak air hangat. 3. Makan makanan lunak (bubur, sup). 4. Kumur air garam hangat. 5. Jaga kebersihan mulut. 6. Hindari makanan yang merangsang.",
+      "planning_medik": "1. Amoxicillin 500 mg 3x1 selama 7 hari (jika streptokokus). 2. Paracetamol 500 mg 3x1 untuk demam dan nyeri. 3. Ibuprofen 400 mg 3x1 jika nyeri hebat. 4. Vitamin C 500 mg 1x1. 5. Kontrol dalam 3 hari. 6. Jika berulang >5x/tahun, pertimbangkan tonsilektomi."
+    }
+  },
+  {
+    "nama": "Pneumonia",
+    "soap": {
+      "subjektif": "Pasien mengeluh batuk berdahak (warna kecoklatan), sesak napas, demam tinggi, dan nyeri dada saat bernapas sejak 3 hari lalu. Pasien juga mengeluh kelelahan hebat dan tidak nafsu makan. Riwayat ISPA sebelumnya, merokok aktif 20 batang/hari.",
+      "objektif": "S: 39.5°C, N: 110 x/menit, RR: 28 x/menit, TD: 130/85 mmHg. SpO2: 92% (udara ruangan). Auskultasi paru: bronkial, ronkhi basah di lapang paru kanan bawah, dan egofoni. Foto thorax: infiltrat di lobus inferior kanan. Lab: leukosit 15.000/µL, CRP 80 mg/L.",
+      "assesment": "Pneumonia komunitas (CAP) dengan gejala klinis dan radiologis. Faktor risiko: merokok aktif. Status: infeksi saluran napas bagian bawah.",
+      "planning_non_medik": "1. Edukasi tentang pentingnya berhenti merokok. 2. Istirahat total. 3. Nutrisi yang adekuat. 4. Hidrasi yang cukup. 5. Gunakan masker. 6. Isolasi untuk mencegah penularan.",
+      "planning_medik": "1. Antibiotik: Ceftriaxone 1g 1x1 IV + Azithromycin 500 mg 1x1. 2. Oksigen jika SpO2 <92%. 3. Paracetamol 500 mg 3x1 untuk demam. 4. Bromhexine 8 mg 3x1. 5. Kontrol dalam 2 hari. 6. Rawat inap jika tidak membaik atau gejala berat."
+    }
+  },
+  {
+    "nama": "Tuberkulosis Paru",
+    "soap": {
+      "subjektif": "Pasien mengeluh batuk kronik (>2 minggu) dengan dahak kadang bercampur darah, demam sore hari, keringat malam, dan penurunan berat badan sejak 3 bulan terakhir. Pasien juga mengeluh nafsu makan menurun dan kelelahan. Riwayat kontak dengan penderita TBC.",
+      "objektif": "S: 37.5°C (sore hari), N: 88 x/menit, RR: 22 x/menit, TD: 115/75 mmHg. Badan terlihat kurus, IMT: 17.5. Auskultasi paru: vesikuler menurun di apex, suara napas bronkial. Sputum: BTA positif (3+). Foto thorax: infiltrat di lobus superior dengan kavitas. Mantoux test: 15 mm.",
+      "assesment": "Tuberkulosis paru aktif dengan gejala klinis klasik, BTA positif, dan gambaran radiologis khas. Status: infeksi mikobakteri aktif.",
+      "planning_non_medik": "1. Edukasi tentang TBC, pengobatan, dan pencegahan penularan. 2. Isolasi sampai BTA negatif. 3. Nutrisi tinggi protein dan kalori. 4. Istirahat cukup. 5. Konseling tentang efek samping obat. 6. Identifikasi kontak erat untuk screening.",
+      "planning_medik": "1. Terapi OAT Kategori 1: 2HRZE/4H3R3 (2 bulan intensif + 4 bulan lanjutan). 2. Monitoring efek samping obat. 3. Kontrol BTA bulan 2, 5, dan akhir pengobatan. 4. Jika resisten: rujuk ke program DOTS. 5. Evaluasi klinis dan foto thorax dalam 3 bulan."
+    }
+  },
+  {
+    "nama": "Diare Akut",
+    "soap": {
+      "subjektif": "Pasien mengeluh buang air besar cair 5-6x dalam 24 jam terakhir, disertai nyeri perut kram dan mual. Pasien juga mengeluh lemas, haus, dan nafsu makan menurun. Riwayat makan makanan di luar rumah 1 hari sebelum keluhan. Tidak ada darah atau lendir dalam tinja.",
+      "objektif": "TD: 95/65 mmHg, N: 90 x/menit, S: 36.5°C. Turgor kulit menurun, membran mukosa kering. Abdomen: nyeri tekan ringan di seluruh perut, bising usus meningkat. Tidak ditemukan tanda peritonitis. Tidak ada demam. Hasil lab: leukosit normal.",
+      "assesment": "Diare akut (probabilitas gastroenteritis virus atau toksin) dengan dehidrasi ringan-sedang. Tidak ada tanda infeksi bakteri.",
+      "planning_non_medik": "1. Edukasi tentang pentingnya rehidrasi. 2. Oralit: 1 gelas setiap kali BAB cair. 3. Makan makanan lunak (bubur, pisang, roti) dengan porsi kecil tapi sering. 4. Hindari makanan berlemak, pedas, dan susu sementara. 5. Cuci tangan dengan sabun. 6. Istirahat yang cukup.",
+      "planning_medik": "1. Oralit 1 paket dilarutkan sesuai instruksi. 2. Zinc 20 mg 1x1 selama 10 hari. 3. Probiotik untuk mengembalikan flora usus. 4. Jika mual: Ondansetron 4 mg 3x1. 5. Antibiotik tidak diperlukan (kecuali diare dengan darah). 6. Jika dehidrasi berat: rawat inap untuk rehidrasi IV."
+    }
+  },
+  {
+    "nama": "Gastroenteritis",
+    "soap": {
+      "subjektif": "Pasien mengeluh mual, muntah, diare, dan nyeri perut kram sejak 1 hari yang lalu. Muntah 4x, diare 6x cair tanpa darah. Pasien juga mengeluh demam ringan, lemas, dan tidak nafsu makan. Riwayat makan seafood mentah 2 hari sebelumnya.",
+      "objektif": "S: 37.8°C, N: 94 x/menit, TD: 110/70 mmHg. Turgor kulit menurun, membran mukosa kering. Abdomen: nyeri tekan difus, bising usus meningkat. Tidak ada distensi abdomen. Tanda dehidrasi ringan. Tidak ditemukan nyeri lepas.",
+      "assesment": "Gastroenteritis akut (probabilitas infeksi virus atau bakteri) dengan dehidrasi ringan. Riwayat makan seafood mentah menjadi faktor risiko.",
+      "planning_non_medik": "1. Edukasi tentang higiene makanan. 2. Rehidrasi oral: oralit atau air kelapa. 3. Diet BRAT (Banana, Rice, Applesauce, Toast). 4. Hindari susu dan produk olahan susu. 5. Cuci tangan dengan sabun. 6. Istirahat di rumah.",
+      "planning_medik": "1. Oralit 1-2 liter/hari. 2. Probiotik. 3. Zinc 20 mg/hari. 4. Loperamide 4 mg dosis awal, dilanjutkan 2 mg setelah setiap BAB cair (maks 8 mg/hari) jika tidak ada kontraindikasi. 5. Jika mual: Metoclopramide 10 mg 3x1. 6. Evaluasi dalam 2 hari, jika tidak membaik atau tanda bahaya (darah, demam tinggi) segera rujuk."
+    }
+  },
+  {
+    "nama": "Sindrom Iritasi Usus Besar (IBS)",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri perut kram yang hilang timbul, perut kembung, dan perubahan pola buang air besar (sering sembelit bergantian dengan diare) sejak 6 bulan terakhir. Keluhan memberat saat stres dan setelah makan tertentu. Tidak ada darah dalam tinja, berat badan stabil.",
+      "objektif": "TD: 120/75 mmHg, N: 72 x/menit. Abdomen: nyeri tekan di regio periumbilikal dan kuadran kiri bawah, bising usus normal. Pemeriksaan fisik umum dalam batas normal. Tidak ditemukan massa atau hepatomegali. Pemeriksaan lab: dalam batas normal.",
+      "assesment": "Sindrom Iritasi Usus Besar (IBS) dengan gejala dominan nyeri dan perubahan pola BAB. Status: gangguan fungsional usus.",
+      "planning_non_medik": "1. Edukasi tentang IBS dan manajemennya. 2. Identifikasi makanan pemicu. 3. Diet tinggi serat dan rendah FODMAP. 4. Kelola stres: relaksasi, yoga, meditasi. 5. Olahraga teratur. 6. Pola makan teratur dan porsi kecil.",
+      "planning_medik": "1. Antispasmodik: Hyoscine 20 mg 3x1 sebelum makan. 2. Loperamide 2 mg 1x1 jika diare. 3. Laksatif (laktulosa) jika konstipasi. 4. Probiotik. 5. Jika nyeri tidak terkendali: antidepresan dosis rendah (amitriptyline). 6. Kontrol dalam 1 bulan."
+    }
+  },
+  {
+    "nama": "Ulkus Peptikum",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri epigastrium terbakar yang muncul 1-2 jam setelah makan. Nyeri dapat hilang dengan makanan. Pasien juga mengeluh mual, kembung, dan kadang muntah. Riwayat penggunaan NSAID untuk arthritis. Pasien merokok dan sering stres.",
+      "objektif": "TD: 115/75 mmHg, N: 80 x/menit. Abdomen: nyeri tekan epigastrium, tidak ada tanda peritoneal. Tidak ditemukan perdarahan gastrointestinal. Hasil lab: Hb 13 g/dL, H. pylori antigen positif. Pemeriksaan endoskopi (rencana): akan dilakukan.",
+      "assesment": "Ulkus peptikum duodenum (kemungkinan) terkait H. pylori dan penggunaan NSAID. Faktor risiko: merokok dan stres.",
+      "planning_non_medik": "1. Edukasi tentang ulkus peptikum dan pencegahannya. 2. Hentikan NSAID (ganti dengan paracetamol). 3. Berhenti merokok. 4. Hindari alkohol dan kafein. 5. Makan teratur dan dalam porsi kecil. 6. Kelola stres.",
+      "planning_medik": "1. PPI (Omeprazole 20 mg 2x1) selama 8 minggu. 2. Terapi eradikasi H. pylori: triple therapy (Clarithromycin + Amoxicillin + PPI) selama 7-14 hari. 3. Antasida untuk nyeri akut. 4. Kontrol dalam 2 minggu. 5. Jika tidak membaik: endoskopi. 6. Evaluasi H. pylori dalam 4-6 minggu."
+    }
+  },
+  {
+    "nama": "Gagal Ginjal Kronik",
+    "soap": {
+      "subjektif": "Pasien mengeluh lelah, edema pada kaki, sesak napas, dan penurunan jumlah urin sejak 3 bulan terakhir. Pasien juga mengeluh mual, hilang nafsu makan, dan kulit gatal. Riwayat diabetes melitus dan hipertensi yang tidak terkontrol. Pasien mengaku tidak rutin kontrol.",
+      "objektif": "TD: 150/90 mmHg, N: 88 x/menit, RR: 22 x/menit. Edema di ekstremitas bawah, wajah pucat, dan kulit kering. Lab: ureum 120 mg/dL, kreatinin 5.6 mg/dL, eGFR 12 mL/min/1.73m², Hb 8.5 g/dL, kalium 5.8 mEq/L. USG ginjal: ginjal mengecil dengan eko meningkat.",
+      "assesment": "Gagal ginjal kronik stadium 5 dengan anemia, hiperkalemia, dan uremia. Faktor risiko: DM dan hipertensi yang tidak terkontrol.",
+      "planning_non_medik": "1. Edukasi tentang CKD dan pengelolaannya. 2. Diet rendah protein, natrium, dan kalium. 3. Pembatasan cairan. 4. Monitoring tekanan darah dan gula darah. 5. Konseling untuk persiapan dialisis. 6. Dukungan psikososial.",
+      "planning_medik": "1. Antihipertensi: CCB (Amlodipine 10 mg 1x1). 2. Diuretik: Furosemide 80 mg 1x1. 3. Eritropoietin 4000 IU 2x/minggu. 4. Pengikat fosfat: Calcium carbonate. 5. Edukasi tentang penatalaksanaan hiperkalemia. 6. Rujuk ke nefrologi untuk dialisis."
+    }
+  },
+  {
+    "nama": "Infeksi Saluran Kemih (ISK)",
+    "soap": {
+      "subjektif": "Pasien mengeluh sering buang air kecil, nyeri saat buang air kecil (disuria), dan rasa tidak tuntas setelah berkemih sejak 3 hari lalu. Pasien juga mengeluh nyeri perut bagian bawah dan urin berwarna keruh. Tidak ada demam. Riwayat ISK sebelumnya. Pasien dalam kondisi hamil 4 bulan.",
+      "objektif": "TD: 110/70 mmHg, N: 80 x/menit, S: 36.8°C. Pemeriksaan fisik abdomen: nyeri tekan suprapubik. Tidak ada nyeri ketok CVA. Urinalisis: leukosit 15-20/LPB, nitrit (+), pH 7.0. Kultur urin: E. coli >10^5 CFU/mL.",
+      "assesment": "Infeksi saluran kemih akut (sistitis) dengan gejala khas. Faktor risiko: kehamilan dan riwayat ISK sebelumnya.",
+      "planning_non_medik": "1. Edukasi tentang pentingnya minum banyak air (2-3 liter/hari). 2. Buang air kecil segera saat ada dorongan. 3. Bersihkan area genital dari depan ke belakang. 4. Hindari penahanan urin. 5. Konsumsi cranberry juice (opsional). 6. Jaga kebersihan genitalia.",
+      "planning_medik": "1. Antibiotik aman untuk kehamilan: Amoxicillin 500 mg 3x1 atau Cephalexin 500 mg 3x1 selama 7 hari. 2. Paracetamol untuk nyeri. 3. Kontrol urin dalam 1 minggu. 4. Jika tidak membaik: kultur dan uji sensitivitas. 5. Profilaksis jika berulang. 6. Evaluasi obstetri."
+    }
+  },
+  {
+    "nama": "Batu Ginjal (Nefrolitiasis)",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan nyeri hebat di pinggang kiri yang menjalar ke perut bagian bawah dan selangkangan sejak 4 jam yang lalu. Nyeri dirasakan kolik, datang dan pergi. Pasien juga mengeluh mual dan muntah 2x. Urin berwarna kemerahan. Riwayat batu ginjal sebelumnya.",
+      "objektif": "TD: 140/90 mmHg, N: 94 x/menit, S: 36.8°C. Pemeriksaan fisik: nyeri ketok CVA kiri (+). Abdomen: nyeri tekan di regio flank kiri, tidak ada tanda peritoneal. Tidak ditemukan demam. Urinalisis: eritrosit 5-10/LPB, pH 6.5, tidak ada kristal. USG ginjal: batu 5 mm di ureter proksimal.",
+      "assesment": "Nefrolitiasis dengan kolik ureter (batu 5 mm) yang menyebabkan gejala obstruktif. Faktor risiko: riwayat batu ginjal.",
+      "planning_non_medik": "1. Edukasi tentang hidrasi (minum 2-3 liter/hari). 2. Diet rendah oksalat dan natrium. 3. Hindari makanan tinggi purin. 4. Monitoring volume dan warna urin. 5. Berhenti merokok. 6. Pantau nyeri dan tanda obstruksi.",
+      "planning_medik": "1. Analgesik: NSAID (Ketorolac 30 mg IV atau Ibuprofen 600 mg). 2. Antispasmodik: Hyoscine 20 mg 3x1. 3. Tamsulosin 0.4 mg 1x1 untuk membantu pengeluaran batu. 4. IV fluid jika tidak bisa minum. 5. Jika nyeri tidak terkontrol: rawat inap. 6. Jika obstruksi lengkap: rujuk untuk ESWL atau ureteroskopi."
+    }
+  },
+  {
+    "nama": "Influenza",
+    "soap": {
+      "subjektif": "Pasien mengeluh demam mendadak tinggi, sakit kepala, nyeri otot dan sendi, batuk kering, dan kelelahan hebat sejak 1 hari lalu. Pasien juga mengeluh pilek dan sakit tenggorokan. Riwayat kontak dengan rekan kerja yang flu. Pasien belum pernah mendapat vaksin influenza.",
+      "objektif": "S: 39.0°C, N: 100 x/menit, RR: 20 x/menit, TD: 125/80 mmHg. Tampak lemas, konjungtiva hiperemis, faring hiperemis. Auskultasi paru: vesikuler normal. Tidak ditemukan wheezing atau ronkhi. Rapid test influenza: positif (tipe A).",
+      "assesment": "Influenza akut (tipe A) dengan gejala sistemik yang khas. Tidak ada komplikasi. Faktor risiko: status vaksinasi (-).",
+      "planning_non_medik": "1. Edukasi tentang istirahat total. 2. Hidrasi yang cukup. 3. Nutrisi yang adekuat. 4. Isolasi di rumah untuk mencegah penularan. 5. Gunakan masker. 6. Jaga kebersihan tangan.",
+      "planning_medik": "1. Oseltamivir 75 mg 2x1 selama 5 hari (dalam 48 jam onset). 2. Paracetamol 500 mg 3x1 untuk demam. 3. Bromhexine 8 mg 3x1 untuk batuk. 4. Vitamin C 500 mg 1x1. 5. Kontrol dalam 3 hari. 6. Jika gejala berat atau komplikasi: rawat inap."
+    }
+  },
+  {
+    "nama": "Vertigo",
+    "soap": {
+      "subjektif": "Pasien mengeluh perasaan berputar dan pusing hebat sejak 2 jam yang lalu, terutama saat menggerakkan kepala. Pasien juga mengeluh mual dan muntah 3x. Tidak ada gangguan pendengaran atau tinitus. Pasien merasa seimbang saat diam. Riwayat vertigo sebelumnya tidak ada.",
+      "objektif": "TD: 130/85 mmHg, N: 78 x/menit, S: 36.5°C. Pemeriksaan neurologis: nistagmus horizontal saat melihat ke samping. Romberg test: positif. Tidak ada defisit sensorik atau motorik. Tidak ada kaku kuduk. Dix-Hallpike test: positif pada sisi kanan.",
+      "assesment": "Vertigo perifer (BPV atau neuronitis vestibular) dengan gejala akut. Status: vestibular dysfunction.",
+      "planning_non_medik": "1. Edukasi tentang posisi dan aktivitas. 2. Bed rest dengan posisi kepala stabil. 3. Hindari gerakan kepala mendadak. 4. Latihan habituation (Epley maneuver). 5. Hindari cahaya terang dan suara keras. 6. Identifikasi dan hindari faktor pemicu.",
+      "planning_medik": "1. Betahistine 8 mg 3x1. 2. Antiemetik: Ondansetron 4 mg 3x1. 3. Diazepam 2 mg 1x1 (jika diperlukan). 4. Kontrol dalam 2 hari. 5. Jika tidak membaik: rujuk THT. 6. Latihan rehabilitasi vestibular jika kronis."
+    }
+  },
+  {
+    "nama": "Dermatitis Atopik",
+    "soap": {
+      "subjektif": "Pasien mengeluh kulit kering, gatal, dan kemerahan pada area lipatan siku dan lutut, serta wajah sejak 1 bulan terakhir. Gatal memberat di malam hari dan saat udara dingin. Riwayat alergi dan asma. Pasien menggunakan sabun mandi yang keras.",
+      "objektif": "Pada area fleksural ekstremitas tampak kulit eritematosa, kering, bersisik, dengan likenifikasi di beberapa tempat. Tidak ada tanda infeksi sekunder. Pemeriksaan: dermografisme positif. Tidak ditemukan limfadenopati. Suhu tubuh normal.",
+      "assesment": "Dermatitis atopik (eksim) dengan gejala klasik dan riwayat atopi. Status: eksaserbasi akut.",
+      "planning_non_medik": "1. Edukasi tentang perawatan kulit. 2. Gunakan pelembab (emolien) 2-3x/hari. 3. Mandi air hangat dengan sabun mild. 4. Hindari alergen dan iritan. 5. Gunakan pakaian katun yang longgar. 6. Jaga kelembaban ruangan.",
+      "planning_medik": "1. Krim hidrokortison 1% 2x1 untuk lesi ringan. 2. Untuk lesi berat: krim betametason 0.1% 2x1 (singkat). 3. Antihistamin oral: Cetirizine 10 mg 1x1. 4. Jika infeksi sekunder: antibiotik topikal. 5. Kontrol dalam 1 minggu. 6. Jika tidak membaik: rujuk dermatologi."
+    }
+  },
+  {
+    "nama": "Psoriasis",
+    "soap": {
+      "subjektif": "Pasien mengeluh bercak merah bersisik yang gatal dan mudah mengelupas di kulit kepala, siku, dan lutut sejak 6 bulan lalu. Keluhan kadang hilang timbul. Pasien juga mengeluh nyeri sendi di pagi hari. Riwayat keluarga dengan psoriasis. Pasien merokok dan stres kerja.",
+      "objektif": "Lesi plak eritematosa dengan skuama putih keperakan di kulit kepala, siku, dan lutut. Tidak ditemukan pitting pada kuku. Pemeriksaan sendi: nyeri tekan pada sendi interphalangeal. Tidak ditemukan tanda inflamasi sistemik. Dermatoskopi: khas psoriasis.",
+      "assesment": "Psoriasis vulgaris dengan arthritis psoriatik ringan. Faktor risiko: merokok dan stres.",
+      "planning_non_medik": "1. Edukasi tentang psoriasis kronik. 2. Hindari merokok dan alkohol. 3. Kelola stres. 4. Gunakan pelembab teratur. 5. Hindari trauma pada kulit. 6. Paparan sinar matahari yang terkontrol.",
+      "planning_medik": "1. Krim salisilat 5% untuk mengurangi skuama. 2. Kortikosteroid topikal (Clobetasol 0.05% 2x1). 3. Vitamin D analog (Calcipotriol). 4. Fistoterapi: UVB atau PUVA. 5. Kontrol dalam 2 minggu. 6. Jika tidak membaik: rujuk ke dermatologi untuk terapi sistemik (methotrexate, biologik)."
+    }
+  },
+  {
+    "nama": "Herpes Zoster",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri hebat seperti terbakar di daerah dada kanan, disertai ruam melepuh sejak 3 hari lalu. Nyeri mendahului ruam 2 hari sebelumnya. Pasien juga mengeluh demam ringan dan kelelahan. Riwayat varicella (cacar) saat anak-anak. Usia 65 tahun.",
+      "objektif": "Lesi vesikuler eritematosa dalam kelompok di dermatom T4 kanan, tidak melewati garis tengah. Vesikel berisi cairan jernih, beberapa sudah pecah dan mengering. Tidak ada tanda infeksi sekunder. S: 37.8°C, N: 84 x/menit. Pemeriksaan neurologis normal.",
+      "assesment": "Herpes zoster (shingles) akut dengan gejala khas. Faktor risiko: usia lanjut dan imunosupresi.",
+      "planning_non_medik": "1. Edukasi tentang virus dan penularannya. 2. Istirahat dan nutrisi yang cukup. 3. Kompres dingin untuk mengurangi nyeri. 4. Hindari menggaruk lesi. 5. Gunakan pakaian longgar. 6. Isolasi dari individu yang belum pernah varicella.",
+      "planning_medik": "1. Antiviral: Acyclovir 800 mg 5x1 atau Valacyclovir 1000 mg 3x1 selama 7 hari. 2. Analgesik: Paracetamol atau NSAID. 3. Untuk nyeri hebat: Amitriptyline 25 mg 1x1 (malam). 4. Krim antibiotik jika perlu. 5. Vaksin untuk post-exposure jika kontak. 6. Kontrol dalam 1 minggu. Jika nyeri menetap > 3 bulan, kemungkinan post-herpetic neuralgia."
+    }
+  },
+  {
+    "nama": "Cacar Air (Varicella)",
+    "soap": {
+      "subjektif": "Pasien mengeluh ruam melepuh yang gatal di seluruh tubuh sejak 2 hari lalu. Ruam muncul dalam berbagai tahap (bintik merah, vesikel, dan krusta). Pasien juga mengeluh demam, lemas, dan tidak nafsu makan. Riwayat kontak dengan anak yang sedang cacar air.",
+      "objektif": "S: 38.5°C, N: 95 x/menit, RR: 20 x/menit. Lesi kulit papulovesikuler di seluruh tubuh (wajah, badan, ekstremitas) dalam berbagai tahap. Tidak ditemukan infeksi sekunder. Tidak ada tanda dehidrasi. Pemeriksaan neurologis normal.",
+      "assesment": "Varicella (cacar air) akut dengan gejala khas. Faktor risiko: kontak dengan individu yang terinfeksi.",
+      "planning_non_medik": "1. Edukasi tentang isolasi. 2. Istirahat cukup. 3. Jaga kebersihan kulit. 4. Gunakan pakaian katun yang longgar. 5. Hindari menggaruk lesi. 6. Jika anak, orangtua perlu monitoring.",
+      "planning_medik": "1. Acyclovir 800 mg 4x1 selama 5 hari (jika dalam 24 jam onset). 2. Paracetamol untuk demam (jangan aspirin). 3. Calamine lotion untuk gatal. 4. Antihistamin (Cetirizine) jika gatal hebat. 5. Jika infeksi sekunder: antibiotik. 6. Kontrol jika demam tinggi atau tanda bahaya."
+    }
+  },
+  {
+    "nama": "Demam Berdarah Dengue (DBD)",
+    "soap": {
+      "subjektif": "Pasien mengeluh demam mendadak tinggi selama 3 hari, sakit kepala hebat, nyeri otot dan sendi, dan mual. Pasien juga mengeluh nyeri perut, dan muncul bintik merah di kulit. Riwayat tinggal di daerah endemik DBD.",
+      "objektif": "S: 39.2°C, N: 108 x/menit, TD: 100/65 mmHg. Tampak lemas, terdapat ruam petekie di ekstremitas dan wajah. Pemeriksaan tourniquet: positif. Lab: Hb 15 g/dL, Hct 45%, trombosit 80.000/µL, leukosit 4.000/µL. Tidak ada tanda syok atau perdarahan aktif.",
+      "assesment": "Demam Berdarah Dengue (DBD) derajat I (tanpa syok) dengan gejala khas dan trombositopenia. Faktor risiko: tinggal di area endemik.",
+      "planning_non_medik": "1. Edukasi tentang DBD dan tandanya. 2. Istirahat total. 3. Hidrasi yang cukup (minum 2-3 liter/hari). 4. Monitor suhu dan tanda perdarahan. 5. Nutrisi tinggi kalori. 6. Gunakan kelambu untuk mencegah gigitan nyamuk.",
+      "planning_medik": "1. Paracetamol 500 mg 3x1 (hindari NSAID/aspirin). 2. Oralit untuk mencegah dehidrasi. 3. Monitor trombosit setiap hari. 4. Jika Hct meningkat >20% atau trombosit <50.000: rawat inap. 5. Jika syok: resusitasi cairan. 6. Kontrol dalam 2 hari."
+    }
+  },
+  {
+    "nama": "Malaria",
+    "soap": {
+      "subjektif": "Pasien datang dengan keluhan demam naik turun (periodik), menggigil hebat, berkeringat, dan sakit kepala sejak 5 hari lalu. Pasien juga mengeluh mual, muntah, dan kelelahan hebat. Riwayat bepergian ke daerah endemik malaria 2 minggu sebelumnya.",
+      "objektif": "S: 39.5°C (demam), N: 110 x/menit, RR: 22 x/menit, TD: 100/65 mmHg. Tampak lemah, konjungtiva pucat, hati dan limpa teraba membesar. Lab: Hb 9 g/dL, trombosit 80.000/µL. Pemeriksaan darah tepi: Plasmodium falciparum (trophozoit) positif.",
+      "assesment": "Malaria falciparum dengan gejala klasik dan anemia. Faktor risiko: perjalanan ke daerah endemik.",
+      "planning_non_medik": "1. Edukasi tentang malaria dan pencegahannya. 2. Istirahat total. 3. Nutrisi yang adekuat. 4. Hidrasi. 5. Gunakan kelambu dan repelan. 6. Monitoring gejala dan tanda komplikasi.",
+      "planning_medik": "1. Terapi antimalaria: Artemisinin-based Combination Therapy (ACT) sesuai pedoman WHO. 2. Untuk falciparum: Dihydroartemisinin-Piperaquine. 3. Jika berat: IV Artesunate. 4. Supportif: Paracetamol untuk demam. 5. Monitor Hb, trombosit, dan parasit setiap hari. 6. Jika komplikasi (cerebral, organ failure): ICU."
+    }
+  },
+  {
+    "nama": "Tifoid (Demam Tifoid)",
+    "soap": {
+      "subjektif": "Pasien mengeluh demam yang naik turun (step-ladder pattern) sejak 7 hari lalu, sakit kepala, tidak nafsu makan, dan kelelahan. Pasien juga mengeluh mual, perut kembung, dan kadang diare. Riwayat makan makanan di luar rumah.",
+      "objektif": "S: 39.0°C, N: 100 x/menit, RR: 22 x/menit, TD: 110/70 mmHg. Tampak lemah, lidah kotor (coated tongue), dan terdapat nyeri perut difus. Hati dan limpa teraba membesar. Lab: Hb 12 g/dL, leukosit 5.000/µL. Widal test: O 1/160, H 1/320. Kultur darah (rencana).",
+      "assesment": "Demam tifoid dengan gejala klinis klasik dan Widal test positif. Faktor risiko: makanan terkontaminasi.",
+      "planning_non_medik": "1. Edukasi tentang higiene makanan. 2. Istirahat total. 3. Diet lunak dan mudah dicerna. 4. Hidrasi yang cukup. 5. Cuci tangan dengan sabun. 6. Isolasi sampai sembuh.",
+      "planning_medik": "1. Antibiotik: Azithromycin 500 mg 1x1 atau Ceftriaxone 2g 1x1 IV selama 7-14 hari. 2. Paracetamol untuk demam. 3. Vitamin C. 4. Kontrol dalam 3 hari. 5. Kultur darah untuk konfirmasi. 6. Jika tidak membaik: rawat inap."
+    }
+  },
+  {
+    "nama": "Kolera",
+    "soap": {
+      "subjektif": "Pasien mengeluh diare cair sangat banyak (seperti air cucian beras) dan muntah sejak 6 jam yang lalu. Pasien juga mengeluh haus hebat, lemas, dan kram otot. Riwayat minum air sumur yang terkontaminasi. Tidak ada demam.",
+      "objektif": "TD: 85/55 mmHg, N: 120 x/menit, RR: 24 x/menit, S: 36.0°C. Tampak dehidrasi berat, turgor kulit sangat menurun, mata cekung, dan membran mukosa kering. Tidak ada nyeri perut. Tidak ada demam. Lab: Hb 15 g/dL, Hct 50% (hemokonsentrasi).",
+      "assesment": "Kolera dengan dehidrasi berat (syok hipovolemik) dan gejala khas. Faktor risiko: kontaminasi air.",
+      "planning_non_medik": "1. Edukasi tentang pentingnya air bersih. 2. Rehidrasi oral dan IV. 3. Istirahat total. 4. Nutrisi setelah rehidrasi. 5. Sanitasi lingkungan. 6. Isolasi.",
+      "planning_medik": "1. Rehidrasi IV: Ringer Laktat 100 mL/kg dalam 3 jam. 2. Lanjutkan dengan oralit setelah stabil. 3. Antibiotik: Doxycycline 300 mg 1x1 atau Azithromycin 1g 1x1. 4. Zinc 20 mg 1x1 selama 10 hari. 5. Monitor tanda dehidrasi. 6. Jika syok: ICU."
+    }
+  },
+  {
+    "nama": "Hepatitis A",
+    "soap": {
+      "subjektif": "Pasien mengeluh demam, lemas, mual, muntah, dan nyeri perut kanan atas sejak 5 hari lalu. Pasien juga mengeluh urin berwarna gelap dan mata serta kulit menguning. Riwayat makan makanan laut mentah 2 minggu sebelumnya.",
+      "objektif": "S: 38.2°C, N: 88 x/menit, TD: 115/70 mmHg. Ikterus sklera dan kulit. Hati teraba membesar 2 cm di bawah arcus costae dengan nyeri tekan. Lab: bilirubin total 6 mg/dL, SGPT 800 U/L, SGOT 650 U/L, HBsAg negatif, anti-HAV IgM positif.",
+      "assesment": "Hepatitis A akut dengan gejala prodromal dan ikterus. Faktor risiko: makanan laut mentah.",
+      "planning_non_medik": "1. Edukasi tentang hepatitis A. 2. Istirahat total. 3. Diet rendah lemak dan tinggi karbohidrat. 4. Hindari alkohol. 5. Jaga kebersihan. 6. Isolasi.",
+      "planning_medik": "1. Suportif: vitamin B kompleks. 2. Antiemetik jika mual. 3. Monitor fungsi hati. 4. Kontrol dalam 1 minggu. 5. Edukasi tentang pencegahan: vaksinasi. 6. Jika komplikasi: rawat inap."
+    }
+  },
+  {
+    "nama": "Hepatitis B",
+    "soap": {
+      "subjektif": "Pasien mengeluh lemas, tidak nafsu makan, mual, dan nyeri perut kanan atas sejak 1 bulan. Pasien juga mengeluh urin gelap dan warna kuning pada mata. Riwayat penggunaan jarum suntik bersama. Tidak ada riwayat vaksinasi.",
+      "objektif": "Ikterus sklera dan kulit, hati teraba 2 cm di bawah arcus costae. Tidak ada asites. Lab: HBsAg positif, anti-HBc IgM positif, SGPT 600 U/L, bilirubin 5 mg/dL. Tidak ada tanda sirosis.",
+      "assesment": "Hepatitis B akut dengan gejala klinis dan serologi khas. Faktor risiko: penggunaan jarum bersama.",
+      "planning_non_medik": "1. Edukasi tentang penularan dan pencegahan. 2. Istirahat. 3. Nutrisi yang adekuat. 4. Hindari alkohol dan hepatotoksik. 5. Gunakan kondom. 6. Vaksinasi untuk kontak.",
+      "planning_medik": "1. Suportif: vitamin B kompleks. 2. Monitor fungsi hati setiap 1-2 minggu. 3. Jika HBsAg positif >6 bulan: evaluasi antivirus (Tenofovir atau Entecavir). 4. Kontrol ke hepatologi. 5. Edukasi tentang risiko sirosis dan kanker. 6. Vaksinasi hepatitis B untuk kontak."
+    }
+  },
+  {
+    "nama": "Sirosis Hepatis",
+    "soap": {
+      "subjektif": "Pasien mengeluh perut membesar, lemas, dan kulit gatal sejak 3 bulan terakhir. Pasien juga mengeluh mudah memar dan nafsu makan menurun. Riwayat konsumsi alkohol berat selama 20 tahun. Pasien memiliki riwayat hepatitis B.",
+      "objektif": "Tampak kurus, ikterus, caput medusae, spider nevi, dan ginekomastia. Abdomen: asites (+), hati teraba keras di 4 cm bawah arcus costae. Lab: Hb 9 g/dL, trombosit 80.000/µL, SGPT 120 U/L, bilirubin 4 mg/dL, albumin 2.5 g/dL, INR 1.8.",
+      "assesment": "Sirosis hepatis (dekompensasi) dengan asites, varises, dan gangguan sintesis. Faktor risiko: alkohol dan hepatitis B.",
+      "planning_non_medik": "1. Edukasi tentang sirosis dan komplikasinya. 2. Berhenti alkohol total. 3. Diet rendah garam dan protein. 4. Istirahat. 5. Monitoring berat badan dan lingkar perut. 6. Konseling psikososial.",
+      "planning_medik": "1. Diuretik: Spironolactone 50-100 mg 1x1 + Furosemide 40 mg 1x1. 2. Beta-blocker: Propranolol 40 mg 2x1 untuk pencegahan varices. 3. Vitamin K 10 mg 1x1. 4. Albumin IV jika perlu. 5. Evaluasi untuk transplantasi hati. 6. Kontrol setiap 3 bulan dengan USG dan alpha-fetoprotein."
+    }
+  },
+  {
+    "nama": "Kolelitiasis (Batu Empedu)",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri perut kanan atas yang hebat dan menjalar ke punggung sejak 3 jam yang lalu, terutama setelah makan makanan berlemak. Pasien juga mengeluh mual, muntah, dan kadang demam. Riwayat batu empedu dalam keluarga.",
+      "objektif": "S: 37.8°C, N: 92 x/menit, TD: 130/85 mmHg. Abdomen: nyeri tekan di kuadran kanan atas, tanda Murphy positif. Tidak ada ikterus. Lab: leukosit 12.000/µL, bilirubin normal. USG abdomen: batu empedu multiple dengan dinding kandung empedu menebal.",
+      "assesment": "Kolelitiasis dengan kolik bilier akut, tanpa tanda komplikasi (kolesistitis, koledokolitiasis).",
+      "planning_non_medik": "1. Edukasi tentang diet rendah lemak. 2. Hindari makanan berlemak dan gorengan. 3. Makan dalam porsi kecil. 4. Istirahat. 5. Kompres hangat untuk nyeri. 6. Pantau tanda komplikasi.",
+      "planning_medik": "1. Analgesik: NSAID (Diclofenac 75 mg IM atau Ibuprofen 600 mg). 2. Antispasmodik: Hyoscine 20 mg 3x1. 3. Antibiotik jika ada infeksi. 4. Jika nyeri tidak terkontrol: rawat inap. 5. Rujuk ke spesialis bedah untuk kolesistektomi. 6. Kontrol dalam 1 minggu."
+    }
+  },
+  {
+    "nama": "Pankreatitis Akut",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri perut bagian atas yang hebat, menjalar ke punggung, disertai mual dan muntah sejak 2 jam yang lalu. Pasien juga mengeluh perut terasa kembung. Riwayat konsumsi alkohol berat dan batu empedu.",
+      "objektif": "TD: 100/60 mmHg, N: 110 x/menit, RR: 24 x/menit, S: 38.2°C. Tampak sakit, abdomen distensi, nyeri tekan di epigastrium dan kuadran kiri atas, bising usus menurun. Lab: amilase 800 U/L, lipase 1.200 U/L, leukosit 15.000/µL. CT scan: pankreatitis edematous.",
+      "assesment": "Pankreatitis akut (probabilitas edematous) dengan gejala klinis dan lab khas. Faktor risiko: alkohol dan batu empedu.",
+      "planning_non_medik": "1. Puasa dan NPO. 2. Edukasi tentang pankreatitis. 3. Istirahat. 4. Nutrisi parenteral jika perlu. 5. Hindari alkohol total. 6. Identifikasi dan hindari penyebab.",
+      "planning_medik": "1. IV fluid: Ringer Laktat (resusitasi). 2. Analgesik: Morfin atau Pethidine. 3. Antiemetik: Ondansetron. 4. Jika infeksi: antibiotik. 5. Monitoring tanda komplikasi. 6. Jika berat: ICU dan ERCP jika perlu."
+    }
+  },
+  {
+    "nama": "Kolesistitis Akut",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri perut kanan atas yang hebat dan terus-menerus selama 2 hari, menjalar ke punggung. Pasien juga mengeluh demam, mual, dan muntah. Riwayat batu empedu sebelumnya.",
+      "objektif": "S: 38.5°C, N: 100 x/menit, TD: 130/85 mmHg. Abdomen: nyeri tekan di kuadran kanan atas, tanda Murphy positif, defense otot. Tidak ada ikterus. Lab: leukosit 18.000/µL, bilirubin normal. USG: dinding kandung empedu menebal, batu, dan tanda Murphy sonografi.",
+      "assesment": "Kolesistitis akut (kalkulus) dengan gejala inflamasi. Faktor risiko: batu empedu.",
+      "planning_non_medik": "1. Puasa. 2. Edukasi tentang kolesistitis. 3. Istirahat. 4. Hidrasi IV. 5. Nutrisi parenteral. 6. Pantau tanda peritonitis.",
+      "planning_medik": "1. Antibiotik: Ceftriaxone + Metronidazole. 2. Analgesik: NSAID atau Opioid. 3. Antispasmodik. 4. Jika tidak membaik dalam 24-48 jam: operasi (kolesistektomi). 5. Kontrol dalam 2 hari. 6. Rujuk ke spesialis bedah."
+    }
+  },
+  {
+    "nama": "Apendisitis",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri perut yang awalnya di sekitar pusar, kemudian berpindah ke perut kanan bawah sejak 12 jam yang lalu. Nyeri semakin memberat, disertai mual dan muntah. Pasien juga mengeluh demam ringan dan tidak nafsu makan.",
+      "objektif": "S: 38.0°C, N: 96 x/menit, TD: 120/75 mmHg. Abdomen: nyeri tekan di kuadran kanan bawah (McBurney point), defense otot, tanda Rovsing positif. Lab: leukosit 15.000/µL (shift to the left). USG: apendiks berdiameter >7 mm dengan tanda inflamasi.",
+      "assesment": "Apendisitis akut dengan gejala klasik dan tanda inflamasi. Status: urgensi bedah.",
+      "planning_non_medik": "1. Puasa (NPO). 2. Edukasi tentang apendisitis dan tindakan. 3. Istirahat. 4. Persiapkan untuk operasi. 5. Monitor tanda peritonitis. 6. Konsultasi bedah.",
+      "planning_medik": "1. Antibiotik profilaksis: Cefazolin + Metronidazole. 2. Analgesik: Paracetamol atau Morfin. 3. IV fluid (Ringer Laktat). 4. Antiemetik jika perlu. 5. Segera lakukan apendektomi. 6. Jika perforasi: antibiotik spektrum luas dan drainase."
+    }
+  },
+  {
+    "nama": "Hernia Inguinalis",
+    "soap": {
+      "subjektif": "Pasien mengeluh benjolan di selangkangan kanan yang keluar saat batuk dan aktivitas berat, dan dapat kembali saat berbaring sejak 6 bulan. Benjolan kadang terasa nyeri. Pasien juga mengeluh perut kembung dan konstipasi.",
+      "objektif": "Pada regio inguinal kanan tampak benjolan ukuran 5x3 cm yang reducible. Saat batuk, benjolan membesar (cough impulse positif). Tidak ada tanda obstruksi atau inkarserasi. Pemeriksaan: tidak ada tanda infeksi.",
+      "assesment": "Hernia inguinalis medialis (indirek) kanan yang reducible. Faktor risiko: aktivitas berat.",
+      "planning_non_medik": "1. Edukasi tentang hernia. 2. Hindari aktivitas berat dan mengejan. 3. Gunakan truss jika perlu. 4. Kelola konstipasi. 5. Jaga berat badan. 6. Pantau tanda komplikasi.",
+      "planning_medik": "1. Rujuk ke spesialis bedah untuk herniorafi. 2. Jika komplikasi (inkarserasi/strangulasi): operasi darurat. 3. Analgesik untuk nyeri. 4. Kontrol dalam 1 minggu. 5. Jika operasi elektif: persiapan pra-operasi. 6. Evaluasi risiko komplikasi."
+    }
+  },
+  {
+    "nama": "Gagal Jantung Kongestif",
+    "soap": {
+      "subjektif": "Pasien mengeluh sesak napas yang memberat saat aktivitas dan saat berbaring, edema pada kaki, serta perut terasa penuh sejak 2 minggu terakhir. Pasien juga mengeluh lelah dan batuk malam hari. Riwayat hipertensi dan penyakit jantung koroner.",
+      "objektif": "TD: 150/95 mmHg, N: 100 x/menit, RR: 26 x/menit. Edema ekstremitas bawah (+), JVP meningkat, ronkhi basah di basal paru, dan hepatomegali. EKG: LVH. Ekokardiografi: EF 35%, LV dilatasi.",
+      "assesment": "Gagal jantung kongestif (HFrEF) dengan gejala kongesti dan gangguan fungsi sistolik. Faktor risiko: hipertensi dan PJK.",
+      "planning_non_medik": "1. Edukasi tentang gagal jantung. 2. Diet rendah garam (≤2 g/hari). 3. Pembatasan cairan. 4. Monitoring berat badan harian. 5. Aktivitas ringan sesuai kemampuan. 6. Hindari alkohol dan rokok.",
+      "planning_medik": "1. ACE inhibitor: Enalapril 5 mg 2x1. 2. Beta-blocker: Bisoprolol 2.5 mg 1x1. 3. Diuretik: Furosemide 40 mg 1x1 (dapat dinaikkan). 4. Spironolactone 25 mg 1x1. 5. Digitalis (Digoxin) jika perlu. 6. Kontrol dalam 1 minggu."
+    }
+  },
+  {
+    "nama": "Aritmia",
+    "soap": {
+      "subjektif": "Pasien mengeluh jantung berdebar-debar, pusing, dan rasa tidak enak di dada sejak 1 hari yang lalu. Pasien juga mengeluh sesak napas ringan dan kelelahan. Riwayat hipertensi dan penyakit jantung koroner. Tidak ada riwayat pingsan.",
+      "objektif": "TD: 135/85 mmHg, N: 120 x/menit (ireguler), RR: 22 x/menit. EKG: atrial fibrillation dengan rapid ventricular response (RVR). Tidak ada tanda gagal jantung. Tidak ada gangguan neurologis. Echocardiography: struktur normal.",
+      "assesment": "Atrial Fibrillation dengan RVR (onset baru). Faktor risiko: hipertensi.",
+      "planning_non_medik": "1. Edukasi tentang aritmia. 2. Istirahat. 3. Hindari kafein dan stimulan. 4. Manajemen stres. 5. Monitoring gejala. 6. Informasikan tanda bahaya.",
+      "planning_medik": "1. Rate control: Beta-blocker (Metoprolol 50 mg 1x1). 2. Antikoagulan: Warfarin atau DOAC (untuk skor CHA2DS2-VASc ≥2). 3. Jika gagal: antiaritmia (Amiodarone). 4. Kardiovert jika tidak stabil. 5. Kontrol dalam 1 minggu. 6. Rujuk ke kardiologi."
+    }
+  },
+  {
+    "nama": "Penyakit Arteri Perifer (PAP)",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri pada betis saat berjalan (claudication) yang hilang dengan istirahat sejak 3 bulan terakhir. Pasien juga mengeluh kaki terasa dingin dan kulit berubah warna. Riwayat perokok aktif 20 tahun dan diabetes melitus.",
+      "objektif": "Ekstremitas bawah: kulit pucat, rambut berkurang, denyut nadi dorsalis pedis dan tibialis posterior menurun. ABI: 0.65 (kanan), 0.70 (kiri). Doppler: stenosis arteri femoralis superficialis. Tidak ada ulkus atau gangren.",
+      "assesment": "Penyakit arteri perifer (PAP) dengan claudication intermiten. Faktor risiko: merokok dan DM.",
+      "planning_non_medik": "1. Edukasi tentang PAP. 2. Berhenti merokok total. 3. Olahraga teratur (walking program). 4. Diet sehat dan kontrol DM. 5. Kontrol kolesterol. 6. Perawatan kaki.",
+      "planning_medik": "1. Antiplatelet: Aspirin 80 mg 1x1 atau Clopidogrel 75 mg 1x1. 2. Statin: Atorvastatin 20 mg 1x1. 3. Cilostazol 100 mg 2x1 untuk claudication. 4. Kontrol gula darah. 5. Rujuk ke spesialis vaskular. 6. Jika perlu: revaskularisasi."
+    }
+  },
+  {
+    "nama": "Stroke Iskemik",
+    "soap": {
+      "subjektif": "Pasien ditemukan dengan kelemahan mendadak pada sisi tubuh kanan dan bicara pelo sejak 2 jam yang lalu. Pasien juga mengeluh sakit kepala dan pusing. Riwayat hipertensi, DM, dan dislipidemia. Pasien tidak minum obat teratur.",
+      "objektif": "TD: 160/95 mmHg, N: 80 x/menit, RR: 22 x/menit, S: 36.5°C. Pemeriksaan neurologis: hemiparesis kanan, hemihypestesi, dan afasia motorik. NIHSS: 10. CT scan kepala: tidak ada perdarahan. EKG: sinus rhythm.",
+      "assesment": "Stroke iskemik akut (onset 2 jam) dengan gejala fokal dan CT scan negatif perdarahan. Faktor risiko: hipertensi dan DM.",
+      "planning_non_medik": "1. Edukasi keluarga. 2. Posisikan pasien dengan aman. 3. Rehabilitasi dini. 4. Nutrisi dan hidrasi. 5. Terapi wicara. 6. Pencegahan komplikasi.",
+      "planning_medik": "1. Thrombolysis: jika onset <4.5 jam (alteplase). 2. Aspirin 160-325 mg (setelah CT scan). 3. Kontrol tekanan darah (target <180/105 mmHg sebelum trombolisis). 4. Statin: Atorvastatin 20 mg 1x1. 5. Rehabilitasi: fisioterapi, okupasi. 6. Rujuk ke neurologi."
+    }
+  },
+  {
+    "nama": "Parkinson",
+    "soap": {
+      "subjektif": "Pasien mengeluh tremor di tangan kanan, gerakan lambat, dan kaku otot sejak 1 tahun terakhir. Pasien juga mengeluh kesulitan berjalan, sering jatuh, dan perubahan suara menjadi monoton. Tidak ada riwayat keluarga.",
+      "objektif": "Tremor rest tremor di ekstremitas kanan, bradikinesia, rigiditas, dan postural instability. Face: hypomimia, ekspresi wajah kurang. Gaya berjalan: shuffling gait, decreased arm swing. Tidak ada ataksia atau dismetria.",
+      "assesment": "Penyakit Parkinson (probabilitas idiopatik) dengan gejala motorik klasik. Faktor risiko: usia.",
+      "planning_non_medik": "1. Edukasi tentang Parkinson. 2. Fisioterapi dan okupasi. 3. Olahraga teratur. 4. Nutrisi yang adekuat. 5. Dukungan psikososial. 6. Komunikasikan dengan keluarga.",
+      "planning_medik": "1. Levodopa-Carbidopa 100/25 mg 3x1 (dapat dinaikkan). 2. Jika tremor dominan: antikolinergik. 3. Dopamin agonis: Pramipexole. 4. Kontrol dalam 1 bulan. 5. Evaluasi respon pengobatan. 6. Rujuk ke neurologi."
+    }
+  },
+  {
+    "nama": "Epilepsi",
+    "soap": {
+      "subjektif": "Pasien mengeluh kejang-kejang yang terjadi 3 kali dalam 1 bulan terakhir. Kejang berupa kejang umum (tonik-klonik) dengan durasi 2-3 menit. Pasien juga mengeluh pusing dan bingung setelah kejang. Riwayat trauma kepala 2 tahun lalu.",
+      "objektif": "Pemeriksaan neurologis dalam batas normal. Tidak ada defisit fokal. EEG: aktivitas spike-wave generalized. MRI kepala: normal. Lab: dalam batas normal.",
+      "assesment": "Epilepsi generalized dengan kejang tonik-klonik. Faktor risiko: trauma kepala.",
+      "planning_non_medik": "1. Edukasi tentang epilepsi. 2. Hindari faktor pemicu (kurang tidur, alkohol, stres). 3. Keamanan selama kejang. 4. Jangan meninggalkan pasien sendiri. 5. Pola hidup sehat. 6. Dukungan keluarga.",
+      "planning_medik": "1. Obat anti epilepsi: Valproic acid 500 mg 2x1 atau Lamotrigine 50 mg 2x1. 2. Jika kejang terus: tambahan obat. 3. Jika status epilepticus: diazepam IV. 4. Kontrol dalam 2 minggu. 5. Evaluasi efek samping obat. 6. Rujuk ke neurologi."
+    }
+  },
+  {
+    "nama": "Gout Arthritis",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri hebat di sendi jempol kaki kanan yang timbul mendadak sejak 1 hari yang lalu. Sendi terlihat merah, bengkak, dan panas. Pasien juga mengeluh demam ringan. Riwayat gout sebelumnya dan konsumsi alkohol.",
+      "objektif": "Sendi MTP I kanan tampak eritema, edema, dan nyeri tekan hebat. S: 37.5°C, N: 82 x/menit. Lab: asam urat 9.5 mg/dL, leukosit 10.000/µL. Tidak ada tanda infeksi. Sinovial: kristal monosodium urat.",
+      "assesment": "Gout arthritis akut (serangan akut) dengan gejala klasik. Faktor risiko: hiperurisemia dan alkohol.",
+      "planning_non_medik": "1. Edukasi tentang gout. 2. Hindari makanan tinggi purin (jeroan, seafood, alkohol). 3. Minum air putih banyak (≥2 liter/hari). 4. Istirahatkan sendi. 5. Kompres dingin. 6. Kontrol berat badan.",
+      "planning_medik": "1. NSAID: Indomethacin 50 mg 3x1 atau Ibuprofen 600 mg 3x1. 2. Colchicine 0.5 mg 2x1. 3. Jika kontraindikasi: kortikosteroid (Prednisone 30 mg/hari). 4. Profilaksis jika sering: Allopurinol 100 mg 1x1. 5. Kontrol dalam 2 hari. 6. Evaluasi asam urat dalam 1 bulan."
+    }
+  },
+  {
+    "nama": "Artritis Reumatoid",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri dan kekakuan pada sendi-sendi kecil tangan dan kaki sejak 3 bulan terakhir. Kekakuan terutama di pagi hari >1 jam. Pasien juga mengeluh kelelahan dan demam ringan. Riwayat keluarga dengan rematoid.",
+      "objektif": "Sendi PIP dan MCP tangan: bengkak, merah, hangat, dan nyeri tekan. Deformitas ulnar drift. Tidak ada kelainan pada organ lain. Lab: RF positif (1:80), anti-CCP positif, CRP 20 mg/L. X-ray: erosi sendi.",
+      "assesment": "Artritis reumatoid (RA) dengan gejala klasik dan lab positif. Faktor risiko: genetik.",
+      "planning_non_medik": "1. Edukasi tentang RA. 2. Fisioterapi dan okupasi. 3. Olahraga ringan. 4. Istirahat. 5. Nutrisi. 6. Dukungan psikososial.",
+      "planning_medik": "1. NSAID: Celecoxib 200 mg 1x1. 2. DMARD: Methotrexate 10 mg/minggu. 3. Kortikosteroid: Prednisone 5-10 mg/hari. 4. Jika tidak membaik: biologik (TNF inhibitor). 5. Kontrol dalam 1 bulan. 6. Rujuk ke reumatologi."
+    }
+  },
+  {
+    "nama": "Osteoporosis",
+    "soap": {
+      "subjektif": "Pasien (perempuan, 70 tahun) mengeluh nyeri punggung yang bertambah berat sejak 1 bulan terakhir. Pasien juga mengeluh tinggi badan berkurang dan postur tubuh membungkuk. Riwayat menopause dini dan tidak pernah mengonsumsi suplemen kalsium.",
+      "objektif": "Tampak postur kyphotic, nyeri tekan pada vertebra torakal dan lumbal. Pemeriksaan: DEXA scan T-score -3.0. Lab: kalsium dan vitamin D normal. X-ray: vertebra dengan kompresi.",
+      "assesment": "Osteoporosis (T-score -3.0) dengan nyeri punggung dan deformitas. Faktor risiko: menopause dini.",
+      "planning_non_medik": "1. Edukasi tentang osteoporosis. 2. Suplemen kalsium 1000 mg/hari. 3. Suplemen vitamin D 800 IU/hari. 4. Latihan beban ringan. 5. Hindari jatuh. 6. Nutrisi yang adekuat.",
+      "planning_medik": "1. Bifosfonat: Alendronate 70 mg/minggu. 2. Terapi hormonal: jika menopause. 3. Jika risiko tinggi: Denosumab. 4. Kontrol dalam 6 bulan. 5. Evaluasi DEXA dalam 1-2 tahun. 6. Rujuk ke reumatologi/ortopedi."
+    }
+  },
+  {
+    "nama": "Fibromyalgia",
+    "soap": {
+      "subjektif": "Pasien mengeluh nyeri otot dan sendi yang menyeluruh, kelelahan hebat, dan gangguan tidur sejak 6 bulan terakhir. Pasien juga mengeluh sulit berkonsentrasi, pusing, dan sensitif terhadap dingin. Tidak ada riwayat trauma atau penyakit lain.",
+      "objektif": "Pemeriksaan fisik: nyeri tekan pada 14 dari 18 titik (tender points). Tidak ada pembengkakan sendi atau kelainan neurologis. Pemeriksaan lab: normal. Tidak ditemukan kelainan struktural.",
+      "assesment": "Fibromyalgia dengan gejala klinis klasik. Diagnosis berdasarkan kriteria ACR 2016.",
+      "planning_non_medik": "1. Edukasi tentang fibromyalgia. 2. Olahraga aerobik teratur. 3. Teknik relaksasi dan meditasi. 4. Manajemen stres. 5. Terapi kognitif-perilaku. 6. Tidur yang cukup.",
+      "planning_medik": "1. Amitriptyline 10-25 mg 1x1 (malam). 2. Duloxetine 60 mg 1x1. 3. Pregabalin 75 mg 2x1. 4. Kontrol dalam 1 bulan. 5. Evaluasi respons. 6. Pendekatan multidisiplin."
+    }
+  },
+  {
+    "nama": "Skizofrenia",
+    "soap": {
+      "subjektif": "Pasien mengeluh mendengar suara-suara yang tidak ada, merasa diawasi, dan memiliki keyakinan aneh sejak 6 bulan terakhir. Pasien juga mengeluh sulit tidur, tidak ada motivasi, dan menarik diri dari lingkungan. Riwayat keluarga dengan gangguan jiwa.",
+      "objektif": "Tampak kurang perawatan diri, ekspresi datar, bicara tidak teratur. Pasien menunjukkan paranoid dan halusinasi auditorik. Insight: kurang. Tidak ada agitasi atau perilaku berbahaya.",
+      "assesment": "Skizofrenia (probabilitas paranoid) dengan gejala positif dan negatif. Faktor risiko: genetik.",
+      "planning_non_medik": "1. Edukasi keluarga. 2. Dukungan sosial. 3. Rehabilitasi psikososial. 4. Terapi perilaku. 5. Kelompok dukungan. 6. Manajemen stres.",
+      "planning_medik": "1. Antipsikotik: Risperidone 2 mg 2x1. 2. Jika tidak membaik: Olanzapine. 3. Kontrol efek samping (EPS, metabolik). 4. Kontrol dalam 2 minggu. 5. Evaluasi kepatuhan. 6. Rujuk ke psikiater."
+    }
+  },
+  {
+    "nama": "Depresi",
+    "soap": {
+      "subjektif": "Pasien mengeluh sedih terus-menerus, kehilangan minat, gangguan tidur dan nafsu makan, kelelahan, dan perasaan tidak berguna sejak 2 bulan terakhir. Pasien juga mengeluh sulit berkonsentrasi dan pikiran negatif. Tidak ada riwayat bunuh diri.",
+      "objektif": "Tampak sedih, afek depresif, bicara lambat, dan kontak mata kurang. Tidak ada tanda psikotik. Pemeriksaan fisik: normal. Beck Depression Inventory: 25 (moderate-severe).",
+      "assesment": "Depresi mayor (episode tunggal) dengan gejala klinis. Faktor risiko: genetik dan stres.",
+      "planning_non_medik": "1. Psikoedukasi. 2. Konseling dan psikoterapi (CBT). 3. Dukungan sosial. 4. Olahraga. 5. Aktivitas terstruktur. 6. Manajemen stres.",
+      "planning_medik": "1. SSRI: Fluoxetine 20 mg 1x1 atau Sertraline 50 mg 1x1. 2. Kontrol dalam 2 minggu. 3. Jika tidak membaik dalam 4-6 minggu: dosis dinaikkan atau ganti. 4. Evaluasi risiko bunuh diri. 5. Rujuk ke psikiater. 6. Terapi kombinasi."
+    }
+  },
+  {
+    "nama": "Gangguan Kecemasan",
+    "soap": {
+      "subjektif": "Pasien mengeluh cemas berlebihan, gelisah, sulit tidur, jantung berdebar, dan berkeringat dingin sejak 3 bulan terakhir. Pasien khawatir berlebihan tentang berbagai hal dan sulit mengendalikan kecemasan. Tidak ada riwayat trauma atau penyakit lain.",
+      "objektif": "Tampak gelisah, bicara cepat, dan tangan gemetar. TD: 140/85 mmHg, N: 96 x/menit. Pemeriksaan fisik: tidak ada kelainan organik. GAD-7: 15 (moderate anxiety).",
+      "assesment": "Gangguan kecemasan umum (GAD) dengan gejala otonom dan psikologis. Faktor risiko: genetik dan lingkungan.",
+      "planning_non_medik": "1. Psikoedukasi. 2. Teknik relaksasi dan pernapasan. 3. CBT. 4. Olahraga. 5. Kurangi kafein dan stimulan. 6. Dukungan sosial.",
+      "planning_medik": "1. SSRI: Sertraline 50 mg 1x1 atau Escitalopram 10 mg 1x1. 2. Jika perlu: Benzodiazepin (Alprazolam 0.25-0.5 mg) jangka pendek. 3. Kontrol dalam 2 minggu. 4. Evaluasi respons. 5. Rujuk ke psikiater. 6. Terapi kombinasi."
+    }
+  },
+  {
+    "nama": "Insomnia",
+    "soap": {
+      "subjektif": "Pasien mengeluh sulit tidur dan sering terbangun di malam hari sejak 3 bulan terakhir. Pasien merasa tidak segar saat bangun dan mengantuk sepanjang hari. Tidak ada riwayat penyakit lain. Pasien sering menggunakan gadget sebelum tidur.",
+      "objektif": "Tampak lelah, konjungtiva tidak anemis. Pemeriksaan fisik: normal. Sleep diary: latency 90 menit, total sleep 4.5 jam, efisiensi 55%. Tidak ada tanda sleep apnea.",
+      "assesment": "Insomnia kronis (primary) dengan gangguan kualitas hidup. Faktor risiko: kebiasaan buruk dan stres.",
+      "planning_non_medik": "1. Edukasi sleep hygiene. 2. Rutinitas tidur. 3. Kurangi kafein dan alkohol. 4. Hindari gadget 1 jam sebelum tidur. 5. Olahraga pagi. 6. Relaksasi sebelum tidur.",
+      "planning_medik": "1. CBT-I adalah pilihan utama. 2. Jika perlu: Zolpidem 5 mg atau Melatonin 3 mg. 3. Antihistamin (Diphenhydramine) untuk jangka pendek. 4. Kontrol dalam 2 minggu. 5. Evaluasi efek samping. 6. Rujuk ke sleep specialist jika perlu."
+    }
+  },
+  {
+    "nama": "Hepatitis C",
+    "soap": {
+      "subjektif": "Pasien mengeluh kelelahan, tidak nafsu makan, mual, dan nyeri perut kanan atas sejak 2 bulan. Pasien juga mengeluh urin gelap dan gatal. Riwayat penggunaan jarum suntik bersama 20 tahun lalu.",
+      "objektif": "Ikterus ringan, hati teraba 2 cm di bawah arcus costae. Lab: anti-HCV positif, HCV RNA positif (5.000 IU/mL), SGPT 150 U/L, bilirubin 3 mg/dL. Tidak ada tanda sirosis.",
+      "assesment": "Hepatitis C kronik (probabilitas) dengan gejala dan serologi positif. Faktor risiko: jarum suntik.",
+      "planning_non_medik": "1. Edukasi tentang HCV. 2. Hindari alkohol. 3. Nutrisi yang adekuat. 4. Istirahat. 5. Hindari hepatotoksik. 6. Pencegahan penularan.",
+      "planning_medik": "1. Antiviral DAA (Direct Acting Antiviral): Sofosbuvir + Daclatasvir atau Ledipasvir. 2. Evaluasi fungsi hati setiap bulan. 3. Kontrol dalam 1 bulan. 4. Evaluasi SVR 12 minggu setelah pengobatan. 5. Vaksinasi hepatitis A dan B. 6. Rujuk ke hepatologi."
+    }
+  },
+  {
+    "nama": "Hipertensi Portal",
+    "soap": {
+      "subjektif": "Pasien mengeluh perut membesar, mudah memar, dan muntah darah 1 kali. Pasien juga mengeluh lemas dan nafsu makan menurun. Riwayat sirosis hepatis dan hepatitis B.",
+      "objektif": "Tampak kurus, ikterus, caput medusae, spider nevi. Abdomen: asites (+), splenomegali. Lab: trombosit 60.000/µL, Hb 8 g/dL, SGPT 80 U/L, albumin 2.0 g/dL. EGD: varises esofagus grade II.",
+      "assesment": "Hipertensi portal (komplikasi sirosis) dengan asites, varises esofagus, dan splenomegali.",
+      "planning_non_medik": "1. Edukasi tentang hipertensi portal. 2. Diet rendah garam dan protein. 3. Hindari alkohol. 4. Istirahat. 5. Monitor tanda perdarahan. 6. Dukungan psikososial.",
+      "planning_medik": "1. Beta-blocker: Propranolol 40 mg 2x1. 2. Diuretik: Spironolactone 100 mg + Furosemide 40 mg. 3. Jika perdarahan varises: octreotide dan terapi endoskopi. 4. Antibiotik profilaksis. 5. Evaluasi untuk TIPS. 6. Rujuk ke hepatologi."
+    }
+  },
+  {
+    "nama": "Sindrom Nefrotik",
+    "soap": {
+      "subjektif": "Pasien mengeluh edema di wajah dan kaki sejak 2 minggu terakhir. Pasien juga mengeluh urin berbusa dan nafsu makan menurun. Tidak ada riwayat penyakit ginjal sebelumnya.",
+      "objektif": "Edema anasarka di ekstremitas bawah dan wajah. TD: 140/90 mmHg. Lab: protein urin 4 g/24 jam, albumin serum 2.0 g/dL, kolesterol 350 mg/dL. Kreatinin normal. Biopsi ginjal (rencana): minimal change disease.",
+      "assesment": "Sindrom nefrotik (probabilitas glomerulopati) dengan gejala klasik. Faktor risiko: idiopatik.",
+      "planning_non_medik": "1. Edukasi tentang sindrom nefrotik. 2. Diet rendah garam (≤2 g/hari). 3. Pembatasan cairan. 4. Istirahat. 5. Nutrisi. 6. Hindari infeksi.",
+      "planning_medik": "1. Kortikosteroid: Prednisone 60 mg 1x1. 2. Diuretik: Furosemide 40 mg 1x1. 3. ACE inhibitor atau ARB untuk proteinuria. 4. Statin: Atorvastatin untuk hiperlipidemia. 5. Kontrol dalam 2 minggu. 6. Biopsi ginjal jika tidak membaik."
+    }
+  },
+  {
+    "nama": "Glomerulonefritis Akut",
+    "soap": {
+      "subjektif": "Pasien mengeluh urin berwarna merah (hematuria), edema di wajah, dan tekanan darah meningkat sejak 1 minggu lalu. Pasien juga mengeluh lemas dan nafsu makan menurun. Riwayat infeksi tenggorokan 2 minggu sebelumnya.",
+      "objektif": "Edema pada wajah, TD: 160/95 mmHg. Lab: protein urin 2 g/24 jam, hematuria (+), RBC cast (+). Kreatinin 1.5 mg/dL. ASO titer meningkat. C3 serum rendah.",
+      "assesment": "Glomerulonefritis akut (post-streptococcal) dengan gejala klinis dan lab. Faktor risiko: infeksi streptokokus.",
+      "planning_non_medik": "1. Edukasi tentang penyakit. 2. Diet rendah garam dan protein. 3. Istirahat. 4. Nutrisi. 5. Hindari infeksi. 6. Pantau tanda komplikasi.",
+      "planning_medik": "1. Antibiotik: Penicillin (jika infeksi aktif). 2. Antihipertensi: CCB atau ACE inhibitor. 3. Diuretik: Furosemide untuk edema. 4. Kontrol dalam 2 minggu. 5. Evaluasi fungsi ginjal. 6. Rujuk ke nefrologi."
+    }
+  },
+  {
+    "nama": "Insomnia",
+    "soap": {
+      "subjektif": "Pasien mengeluh sulit tidur dan sering terbangun di malam hari sejak 3 bulan terakhir. Pasien merasa tidak segar saat bangun dan mengantuk sepanjang hari. Tidak ada riwayat penyakit lain. Pasien sering menggunakan gadget sebelum tidur.",
+      "objektif": "Tampak lelah, konjungtiva tidak anemis. Pemeriksaan fisik: normal. Sleep diary: latency 90 menit, total sleep 4.5 jam, efisiensi 55%. Tidak ada tanda sleep apnea.",
+      "assesment": "Insomnia kronis (primary) dengan gangguan kualitas hidup. Faktor risiko: kebiasaan buruk dan stres.",
+      "planning_non_medik": "1. Edukasi sleep hygiene. 2. Rutinitas tidur. 3. Kurangi kafein dan alkohol. 4. Hindari gadget 1 jam sebelum tidur. 5. Olahraga pagi. 6. Relaksasi sebelum tidur.",
+      "planning_medik": "1. CBT-I adalah pilihan utama. 2. Jika perlu: Zolpidem 5 mg atau Melatonin 3 mg. 3. Antihistamin (Diphenhydramine) untuk jangka pendek. 4. Kontrol dalam 2 minggu. 5. Evaluasi efek samping. 6. Rujuk ke sleep specialist jika perlu."
+    }
+  }
+]

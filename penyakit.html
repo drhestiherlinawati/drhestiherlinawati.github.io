@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template SOAP - Cari Penyakit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f4f8;
+            padding: 20px;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 18px 30px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        /* Layout 2 Kolom - full height */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 20px;
+            flex: 1;
+            min-height: 0;
+        }
+
+        /* Kolom Kiri - Pencarian (tanpa scroll berlebih) */
+        .left-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            max-height: 100%;
+        }
+
+        .left-panel h3 {
+            margin-bottom: 12px;
+            color: #2c3e50;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 10px 14px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        .search-box button {
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            white-space: nowrap;
+        }
+
+        .search-box button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+
+        .result-stats {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+            flex-shrink: 0;
+        }
+
+        /* Hasil pencarian - scroll area terbatas */
+        #hasilPencarian {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        #hasilPencarian::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        #hasilPencarian::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        #hasilPencarian::-webkit-scrollbar-thumb {
+            background: #bdc3c7;
+            border-radius: 10px;
+        }
+
+        #hasilPencarian::-webkit-scrollbar-thumb:hover {
+            background: #95a5a6;
+        }
+
+        .card-penyakit {
+            border: 1px solid #e8e8e8;
+            border-radius: 10px;
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            background: #fafbfc;
+        }
+
+        .card-penyakit:hover {
+            background: #ebf5fb;
+            border-color: #3498db;
+            transform: translateX(4px);
+            box-shadow: 0 2px 8px rgba(52, 152, 219, 0.15);
+        }
+
+        .card-penyakit h3 {
+            color: #2c3e50;
+            font-size: 16px;
+            margin-bottom: 3px;
+        }
+
+        .card-penyakit .sub-info {
+            color: #7f8c8d;
+            font-size: 12px;
+            margin: 2px 0;
+        }
+
+        .card-penyakit .badge {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 1px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            margin-top: 4px;
+        }
+
+        /* Kolom Kanan - Form SOAP */
+        .right-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            max-height: 100%;
+        }
+
+        .right-panel::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .right-panel::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        .right-panel::-webkit-scrollbar-thumb {
+            background: #bdc3c7;
+            border-radius: 10px;
+        }
+
+        .form-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #3498db;
+            flex-shrink: 0;
+        }
+
+        .soap-group {
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+
+        .soap-group label {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 4px;
+            font-size: 13px;
+            gap: 6px;
+        }
+
+        .soap-group label .badge-soap {
+            display: inline-block;
+            padding: 1px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: white;
+        }
+
+        .badge-s { background: #3498db; }
+        .badge-o { background: #2ecc71; }
+        .badge-a { background: #f39c12; }
+        .badge-p { background: #e74c3c; }
+
+        .soap-group .input-wrapper {
+            display: flex;
+            gap: 8px;
+            align-items: flex-start;
+        }
+
+        .soap-group .input-wrapper textarea,
+        .soap-group .input-wrapper input {
+            flex: 1;
+            padding: 8px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 13px;
+            font-family: inherit;
+            transition: 0.3s;
+            resize: vertical;
+            min-height: 44px;
+            max-height: 80px;
+        }
+
+        .soap-group .input-wrapper textarea:focus,
+        .soap-group .input-wrapper input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        .soap-group .input-wrapper textarea.auto-filled {
+            background: #f8f9fa;
+            border-color: #b8d4e8;
+        }
+
+        .btn-copy {
+            background: #ecf0f1;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 12px;
+            cursor: pointer;
+            color: #2c3e50;
+            transition: 0.2s;
+            white-space: nowrap;
+            align-self: flex-start;
+            margin-top: 4px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .btn-copy:hover {
+            background: #3498db;
+            color: white;
+        }
+
+        .btn-copy.copied {
+            background: #2ecc71;
+            color: white;
+        }
+
+        .soap-group .hint {
+            font-size: 11px;
+            color: #95a5a6;
+            margin-top: 2px;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            body {
+                overflow-y: auto;
+                height: auto;
+            }
+            .main-layout {
+                grid-template-columns: 1fr;
+                flex: none;
+            }
+            .left-panel {
+                max-height: 320px;
+            }
+            .right-panel {
+                max-height: 600px;
+            }
+            .soap-group .input-wrapper textarea {
+                max-height: 60px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 20px; }
+            .search-box { flex-direction: column; }
+            .soap-group .input-wrapper {
+                flex-direction: column;
+            }
+            .btn-copy {
+                align-self: stretch;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <h1>🏥 Template SOAP dr. Hesti</h1>
+        
+    </div>
+
+    <!-- Main Layout -->
+    <div class="main-layout">
+        <!-- Kolom Kiri: Pencarian -->
+        <div class="left-panel">
+            <h3>🔍 Cari Penyakit</h3>
+            <div class="search-box">
+                <input type="text" id="inputCari" placeholder="Ketik nama penyakit..." />
+                <button id="btnCari">Cari</button>
+            </div>
+            <div id="resultStats" class="result-stats"></div>
+            <div id="hasilPencarian">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Memuat data penyakit...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kolom Kanan: Form SOAP -->
+        <div class="right-panel">
+           
+
+            <!-- Subjective -->
+            <div class="soap-group">
+                <label>
+                    <span class="badge-soap badge-s">S</span>
+                    Subjective (Keluhan Pasien)
+                </label>
+                <div class="input-wrapper">
+                    <textarea id="subjektif" placeholder="Masukkan keluhan pasien..."></textarea>
+                    <button class="btn-copy" data-target="subjektif">📋 Salin</button>
+                </div>
+            </div>
+
+            <!-- Objective -->
+            <div class="soap-group">
+                <label>
+                    <span class="badge-soap badge-o">O</span>
+                    Objective (Pemeriksaan Fisik)
+                </label>
+                <div class="input-wrapper">
+                    <textarea id="objektif" placeholder="Masukkan hasil pemeriksaan fisik..."></textarea>
+                    <button class="btn-copy" data-target="objektif">📋 Salin</button>
+                </div>
+            </div>
+
+            <!-- Assessment -->
+            <div class="soap-group">
+                <label>
+                    <span class="badge-soap badge-a">A</span>
+                    Assessment (Diagnosis)
+                </label>
+                <div class="input-wrapper">
+                    <textarea id="assesment" placeholder="Diagnosis akan terisi otomatis..." class="auto-filled"></textarea>
+                    <button class="btn-copy" data-target="assesment">📋 Salin</button>
+                </div>
+                <div class="hint">💡 Akan terisi otomatis saat penyakit dipilih</div>
+            </div>
+
+            <!-- Planning Non Medik -->
+            <div class="soap-group">
+                <label>
+                    <span class="badge-soap badge-p">P</span>
+                    Planning Non-Medik (Edukasi & Gaya Hidup)
+                </label>
+                <div class="input-wrapper">
+                    <textarea id="planning_non_medik" placeholder="Planning non-medik akan terisi otomatis..." class="auto-filled"></textarea>
+                    <button class="btn-copy" data-target="planning_non_medik">📋 Salin</button>
+                </div>
+                <div class="hint">💡 Akan terisi otomatis saat penyakit dipilih</div>
+            </div>
+
+            <!-- Planning Medik -->
+            <div class="soap-group">
+                <label>
+                    <span class="badge-soap badge-p">P</span>
+                    Planning Medik (Terapi Obat)
+                </label>
+                <div class="input-wrapper">
+                    <textarea id="planning_medik" placeholder="Planning medik akan terisi otomatis..." class="auto-filled"></textarea>
+                    <button class="btn-copy" data-target="planning_medik">📋 Salin</button>
+                </div>
+                <div class="hint">💡 Akan terisi otomatis saat penyakit dipilih</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    // ============================================
+    // DATA - Load dari file JSON
+    // ============================================
+    let dataPenyakit = [];
+
+    async function loadData() {
+        try {
+            const response = await fetch('penyakit.json');
+            if (!response.ok) throw new Error(`Gagal load data: ${response.status}`);
+            dataPenyakit = await response.json();
+            tampilkanHasil(dataPenyakit);
+            document.getElementById('resultStats').textContent =
+                `📊 ${dataPenyakit.length} penyakit tersedia`;
+        } catch (error) {
+            console.error('Error:', error);
+            document.getElementById('hasilPencarian').innerHTML = `
+                <div class="not-found">
+                    <div class="icon">⚠️</div>
+                    <p>Gagal memuat data penyakit!</p>
+                    <p style="font-size:12px; margin-top:5px;">${error.message}</p>
+                    <p style="font-size:12px; color:#e74c3c;">Pastikan file penyakit.json berada di folder yang sama</p>
+                </div>
+            `;
+        }
+    }
+
+    // ============================================
+    // FUNGSI PENCARIAN
+    // ============================================
+    function cariPenyakit() {
+        const keyword = document.getElementById('inputCari').value.trim().toLowerCase();
+        if (keyword === '') {
+            tampilkanHasil(dataPenyakit);
+            document.getElementById('resultStats').textContent =
+                `📊 ${dataPenyakit.length} penyakit tersedia`;
+            return;
+        }
+        const hasil = dataPenyakit.filter(p => p.nama.toLowerCase().includes(keyword));
+        tampilkanHasil(hasil);
+        document.getElementById('resultStats').textContent =
+            `🔍 Ditemukan ${hasil.length} penyakit dari "${keyword}"`;
+    }
+
+    // ============================================
+    // FUNGSI TAMPILKAN HASIL
+    // ============================================
+    function tampilkanHasil(hasil) {
+        const container = document.getElementById('hasilPencarian');
+        container.innerHTML = '';
+        if (hasil.length === 0) {
+            container.innerHTML = `
+                <div class="not-found">
+                    <div class="icon">🔍</div>
+                    <p>Tidak ditemukan penyakit</p>
+                    <p style="font-size:13px; color:#95a5a6;">Coba dengan kata kunci lain</p>
+                </div>
+            `;
+            return;
+        }
+        hasil.forEach(penyakit => {
+            const card = document.createElement('div');
+            card.className = 'card-penyakit';
+            const keyword = document.getElementById('inputCari').value.trim();
+            let displayName = penyakit.nama;
+            if (keyword) {
+                const regex = new RegExp(`(${keyword})`, 'gi');
+                displayName = penyakit.nama.replace(regex, '<mark>$1</mark>');
+            }
+            card.innerHTML = `
+                <h3>${displayName}</h3>
+                <div class="sub-info">📌 ${penyakit.soap.subjektif.substring(0, 55)}...</div>
+                <div class="badge">Klik untuk pilih</div>
+            `;
+            card.addEventListener('click', function() {
+                pilihPenyakit(penyakit.nama);
+            });
+            container.appendChild(card);
+        });
+    }
+
+    // ============================================
+    // FUNGSI PILIH PENYAKIT
+    // ============================================
+    function pilihPenyakit(namaPenyakit) {
+        const penyakit = dataPenyakit.find(p => p.nama === namaPenyakit);
+        if (!penyakit) {
+            alert('Penyakit tidak ditemukan!');
+            return;
+        }
+        document.getElementById('subjektif').value = penyakit.soap.subjektif;
+        document.getElementById('objektif').value = penyakit.soap.objektif;
+        document.getElementById('assesment').value = penyakit.soap.assesment;
+        document.getElementById('planning_non_medik').value = penyakit.soap.planning_non_medik;
+        document.getElementById('planning_medik').value = penyakit.soap.planning_medik;
+
+        document.querySelectorAll('.card-penyakit').forEach(card => {
+            card.style.background = '#fafbfc';
+            card.style.borderColor = '#e8e8e8';
+            card.style.borderWidth = '1px';
+        });
+        document.querySelectorAll('.card-penyakit').forEach(card => {
+            if (card.textContent.includes(namaPenyakit)) {
+                card.style.background = '#ebf5fb';
+                card.style.borderColor = '#3498db';
+                card.style.borderWidth = '2px';
+            }
+        });
+    }
+
+    // ============================================
+    // FUNGSI COPY KE CLIPBOARD
+    // ============================================
+    function copyToClipboard(elementId, btnElement) {
+        const textarea = document.getElementById(elementId);
+        const text = textarea.value;
+        if (!text || text.trim() === '') {
+            alert('Teks kosong, tidak ada yang disalin!');
+            return;
+        }
+        navigator.clipboard.writeText(text).then(() => {
+            const originalText = btnElement.innerHTML;
+            btnElement.innerHTML = '✅ Disalin';
+            btnElement.classList.add('copied');
+            setTimeout(() => {
+                btnElement.innerHTML = originalText;
+                btnElement.classList.remove('copied');
+            }, 1500);
+        }).catch(err => {
+            alert('Gagal menyalin: ' + err);
+        });
+    }
+
+    // ============================================
+    // EVENT LISTENERS
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        loadData();
+
+        document.getElementById('btnCari').addEventListener('click', cariPenyakit);
+        document.getElementById('inputCari').addEventListener('keyup', function(e) {
+            if (e.key === 'Enter') cariPenyakit();
+        });
+
+        // Auto-search dengan debounce
+        let typingTimer;
+        document.getElementById('inputCari').addEventListener('input', function() {
+            clearTimeout(typingTimer);
+            typingTimer = setTimeout(cariPenyakit, 400);
+        });
+
+        // Event untuk tombol copy
+        document.querySelectorAll('.btn-copy').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                copyToClipboard(targetId, this);
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
