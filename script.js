@@ -75,7 +75,7 @@ function bukaWeb(x) {
     window.open("" + x + "");
 }
 
-/* ==== UID & PDF ==== */
+/* ==== UID ==== */
 
 function bukaUid() {
     document.getElementById('uidPopup').hidden = false;
@@ -89,19 +89,16 @@ function bukaPbdikti() {
     window.location.href = 'https://pddikti.kemdiktisaintek.go.id/detail-mahasiswa/cSenaRIUaBDa8yabCTFBK4YhhYhjXcFZvwcXk7rxoMgm3zJLRiwHo4VHw75d0kCeWcubaw==';
 }
 
+/* ==== PDF ==== */
+/* Buka PDF langsung di tab baru (bukan popup) */
+
 function bukaPdf(namaFile) {
-    document.getElementById('uidPopup').hidden = true;
+    // Tutup popup UID dulu kalau sedang terbuka
+    var uidPopup = document.getElementById('uidPopup');
+    if (uidPopup) uidPopup.hidden = true;
 
-    var frame = document.getElementById('pdfFrame');
-    frame.src = encodeURI(namaFile) + '#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
-
-    document.getElementById('pdfPopup').hidden = false;
-}
-
-function tutupPdf() {
-    var frame = document.getElementById('pdfFrame');
-    frame.src = '';
-    document.getElementById('pdfPopup').hidden = true;
+    // Buka PDF di tab baru
+    window.open(encodeURI(namaFile), '_blank');
 }
 
 /* ==== Popup foto profil ==== */
