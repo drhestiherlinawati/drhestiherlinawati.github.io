@@ -4,7 +4,6 @@ body {
     padding: 0;
 }
 
-/* Supaya atribut `hidden` tetap menang atas display: grid */
 [hidden] {
     display: none !important;
 }
@@ -18,10 +17,11 @@ body {
     row-gap: 3vh;
 }
 
-/* Foto + menu pilih */
+/* Baris atas: foto Hesti | tombol pilih tempat kerja | tombol UID */
 #dpfp {
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     gap: 2vw;
     margin-top: 2vh;
 }
@@ -31,11 +31,10 @@ body {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
-    flex-shrink: 0;
 }
 
+/* Tombol pilih tempat kerja — benar-benar di tengah kolom */
 #menuPilih {
-    flex: 1;
     text-align: center;
     position: relative;
 }
@@ -71,6 +70,44 @@ body {
     border-color: #06f;
     color: #06f;
     fill: #06f;
+}
+
+/* Tombol UID di kanan */
+#tombolUid {
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+    height: 48px;
+    padding: 0 1vw 0 0.4vw;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all .3s;
+}
+
+#tombolUid:active {
+    border-color: #06f;
+}
+
+.gambarUid {
+    height: 38px;
+    width: 38px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.uidTeks {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
 }
 
 /* Dropdown pilih tempat kerja */
@@ -118,7 +155,7 @@ body {
     display: block;
 }
 
-/* Layout layanan: 2 kolom (kiri tombol, kanan data) */
+/* Layout layanan */
 .icare,
 .myKlinik,
 .inm,
@@ -128,14 +165,12 @@ body {
     column-gap: 2vw;
 }
 
-/* Tombol di kolom kiri selebar kolomnya */
 .icare > button,
 .inm > button,
 .clinica > button {
     width: 100%;
 }
 
-/* Tombol app1–app9 tetap 2 kolom, total lebar sama dengan kolom kiri */
 .mytombol {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -149,7 +184,6 @@ body {
     padding: 1vh 0.5vw;
 }
 
-/* Data di kolom kanan */
 .icdata,
 .mydata,
 .indata,
@@ -157,4 +191,90 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 3vh;
+}
+
+/* Popup (UID & PDF) */
+.popupOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupBox {
+    position: relative;
+    background: #FFB8BF;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 3vh 3vw;
+    min-width: 260px;
+    text-align: center;
+}
+
+.popupBox h3 {
+    margin: 0 0 2vh 0;
+}
+
+.uidPilihan {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.uidPilihan button {
+    padding: 1vh 2vw;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.uidPilihan button:hover {
+    background: #f0f0f0;
+}
+
+.popupPdf {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.popupPdf iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.popupTutup {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+}
+
+.popupTutup:hover {
+    background: #eee;
 }
