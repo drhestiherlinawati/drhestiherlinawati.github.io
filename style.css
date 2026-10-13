@@ -19,10 +19,13 @@ body{
     display: flex;
     width:100vw;
     margin-top: 5vh;
+    align-items: flex-start;
 }
 
 #pfp{
     width: 15vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
     float: left;
 }
@@ -31,6 +34,7 @@ body{
     margin-right: 15vw;
     width: 100vw;
     text-align: center;
+    position: relative;
 }
 
 .tombolPilih{
@@ -103,6 +107,21 @@ body{
     width: 25vw;
 }
 
+#sip3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    height: 10vh;
+    width: 25vw;
+    padding: 0;
+}
+
+.gambarJatikita{
+    height: 10vh;
+    display: block;
+    width: 25vw;
+}
+
 .show{
     display: flex
 }
@@ -149,4 +168,80 @@ body{
     display: grid;
     grid-template-columns: auto;
     row-gap: 3vh;
+}
+
+.clinica{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20vw;
+}
+
+.clindata{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3vh;
+}
+
+/* ===== HP portrait ===== */
+@media (max-width: 600px) {
+
+    /* Foto profil tidak melebar lagi */
+    #pfp {
+        width: 22vw;
+    }
+
+    /* Grid 2 kolom: kiri tombol, kanan data */
+    .icare, .myKlinik, .inm, .clinica {
+        grid-template-columns: 1fr 1.8fr;
+        column-gap: 2vw;
+    }
+
+    /* Tombol icare / INM / Clinica Assist selebar kolom kiri
+       (otomatis sama dengan lebar app1 + app2) */
+    .icare > button,
+    .inm > button,
+    .clinica > button {
+        width: 100%;
+    }
+
+    /* Tombol app1-app9 tetap 2 kolom */
+    .mytombol {
+        column-gap: 2vw;
+        row-gap: 0.5vh;
+    }
+
+    .mytombol button {
+        width: 100%;
+    }
+
+    /* Data di kolom kanan: label atas, input tengah, Copy bawah rata kanan */
+    .icdata > div,
+    .mydata > div,
+    .indata > div,
+    .clindata > div {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.3rem;
+    }
+
+    .icdata > div > button,
+    .mydata > div > button,
+    .indata > div > button,
+    .clindata > div > button {
+        align-self: flex-end;
+    }
+
+    .icdata input,
+    .mydata input,
+    .indata input,
+    .clindata input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Jarak antar baris data sedikit diperkecil */
+    .icdata, .mydata, .indata, .clindata {
+        row-gap: 2vh;
+    }
 }
