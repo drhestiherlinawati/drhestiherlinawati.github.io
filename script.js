@@ -20,35 +20,27 @@ window.onclick = function (event) {
 };
 
 function munculkanData(x) {
-    // Semua blok data tetap tersembunyi — hanya dibaca isinya.
-    // (Tidak ada yang di-unhide di sini.)
-
-    // Referensi bagian layanan di header
     var icare = document.querySelector('#header .icare');
     var myKlinik = document.querySelector('#header .myKlinik');
     var inm = document.querySelector('#header .inm');
     var clinica = document.querySelector('#header .clinica');
 
     if (x === 'jatikita') {
-        // Sembunyikan layanan lama, tampilkan Clinica Assist
         icare.hidden = true;
         myKlinik.hidden = true;
         inm.hidden = true;
         clinica.hidden = false;
 
-        // Isi data Clinica Assist
         document.querySelector('#header .clinica .user').value =
             document.querySelector('#jatikita .clinica .user').innerHTML;
         document.querySelector('#header .clinica .password').value =
             document.querySelector('#jatikita .clinica .password').innerHTML;
     } else {
-        // Tampilkan layanan lama, sembunyikan Clinica Assist
         icare.hidden = false;
         myKlinik.hidden = false;
         inm.hidden = false;
         clinica.hidden = true;
 
-        // Isi data dari blok tersembunyi
         document.querySelector('#header .icare .user').value =
             document.querySelector('#' + x + ' .icare .user').innerHTML;
         document.querySelector('#header .icare .password').value =
@@ -65,7 +57,6 @@ function munculkanData(x) {
             document.querySelector('#' + x + ' .inm .password').innerHTML;
     }
 
-    // Tutup dropdown
     var menu = document.getElementById('tempatKerja');
     if (menu) menu.classList.remove('show');
 }
@@ -77,4 +68,36 @@ function menyalin(x) {
 
 function bukaWeb(x) {
     window.open("" + x + "");
+}
+
+/* ==== UID & PDF ==== */
+
+function bukaUid() {
+    document.getElementById('uidPopup').hidden = false;
+}
+
+function tutupUid() {
+    document.getElementById('uidPopup').hidden = true;
+}
+
+function bukaPbdikti() {
+    window.location.href = 'https://pddikti.kemdiktisaintek.go.id/detail-mahasiswa/cSenaRIUaBDa8yabCTFBK4YhhYhjXcFZvwcXk7rxoMgm3zJLRiwHo4VHw75d0kCeWcubaw==';
+}
+
+function bukaPdf(namaFile) {
+    // Tutup popup daftar pilihan
+    document.getElementById('uidPopup').hidden = true;
+
+    // Set sumber PDF, parameter URL menyembunyikan toolbar PDF viewer bawaan browser
+    var frame = document.getElementById('pdfFrame');
+    frame.src = namaFile + '#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
+
+    // Tampilkan popup PDF
+    document.getElementById('pdfPopup').hidden = false;
+}
+
+function tutupPdf() {
+    var frame = document.getElementById('pdfFrame');
+    frame.src = ''; // hentikan loading PDF
+    document.getElementById('pdfPopup').hidden = true;
 }
