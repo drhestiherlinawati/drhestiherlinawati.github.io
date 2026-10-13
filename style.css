@@ -205,7 +205,7 @@ body {
     background: #f0f0f0;
 }
 
-/* Popup (UID & PDF) */
+/* Popup UID */
 .popupOverlay {
     position: fixed;
     inset: 0;
@@ -250,23 +250,6 @@ body {
     background: #f0f0f0;
 }
 
-.popupPdf {
-    position: relative;
-    width: 90vw;
-    height: 90vh;
-    background: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.popupPdf iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    display: block;
-}
-
 .popupTutup {
     position: absolute;
     top: 8px;
@@ -291,6 +274,7 @@ body {
     background: #eee;
 }
 
+/* Popup foto profil */
 .fotoPopupOverlay {
     position: fixed;
     inset: 0;
