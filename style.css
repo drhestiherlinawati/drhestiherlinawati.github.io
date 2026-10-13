@@ -31,6 +31,7 @@ body {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 /* Tombol pilih tempat kerja — benar-benar di tengah kolom */
@@ -277,4 +278,53 @@ body {
 
 .popupTutup:hover {
     background: #eee;
+}
+
+/* Popup foto profil */
+.fotoPopupOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fotoPopupIsi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    max-width: 90vw;
+}
+
+.fotoPopupGambar {
+    height: 80vh;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.fotoPopupKontak {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+    color: #fff;
+    font-size: 16px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.fotoPopupKontak a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.fotoPopupKontak a:hover {
+    color: #FFB8BF;
 }
