@@ -13,11 +13,13 @@
                 <div id="menuPilih">
                     <button onclick="pilihTempatKerja()" class="tombolPilih">pilih tempat kerja</button>
                     <div id="tempatKerja" class="pilihan">
-                        <button id="sip1" onclick="munculkanData('kmsc')"><img class="gambarKmsc"src="kmsc.jpg" alt="KMSC"></button>
-                        <button id="sip2" onclick="munculkanData('camad')"><img class="gambarCamad"src="camad.jpg" alt="CAMAD"></button>
+                        <button id="sip1" onclick="munculkanData('kmsc')"><img class="gambarKmsc" src="kmsc.jpg" alt="KMSC"></button>
+                        <button id="sip2" onclick="munculkanData('camad')"><img class="gambarCamad" src="camad.jpg" alt="CAMAD"></button>
+                        <button id="sip3" onclick="munculkanData('jatikita')"><img class="gambarJatikita" src="jatikita.jpg" alt="JATIKITA"></button>
                     </div>
                 </div>
             </div>
+
             <div class="icare">
                 <button onclick="bukaWeb('https://pcarejkn.bpjs-kesehatan.go.id/eclaim/login')">icare</button>
                 <div class="icdata">
@@ -25,6 +27,7 @@
                     <div>Password : <input type="text" class="password" value="pass"><button onclick="menyalin('#header .icare .password')">Copy</button></div>
                 </div>
             </div>
+
             <div class="myKlinik">
                 <div class="mytombol">
                     <button onclick="bukaWeb('https://app.myklinik.id/')">app1</button>
@@ -39,6 +42,7 @@
                     <div>Password : <input type="text" class="password" value="pass"><button onclick="menyalin('#header .myKlinik .password')">Copy</button></div>
                 </div>
             </div>
+
             <div class="inm">
                 <button onclick="bukaWeb('https://akun-yankes.kemkes.go.id/?continued=https://mutufasyankes.kemkes.go.id/halaman/landing')">INM</button>
                 <div class="indata">
@@ -46,8 +50,16 @@
                     <div>Password : <input type="text" class="password" value="pass"><button onclick="menyalin('#header .inm .password')">Copy</button></div>
                 </div>
             </div>
+
+            <div class="clinica" hidden>
+                <button onclick="bukaWeb('https://clinica.assist.id/')">Clinica Assist</button>
+                <div class="clindata">
+                    <div>Username : <input type="text" class="user" value=""><button onclick="menyalin('#header .clinica .user')">Copy</button></div>
+                    <div>Password : <input type="text" class="password" value=""><button onclick="menyalin('#header .clinica .password')">Copy</button></div>
+                </div>
+            </div>
         </div>
-        
+
         <div id="kmsc" hidden="">
             <div class="icare">
                 <div class="user">HESTI.HERLINAWATI</div>
@@ -63,14 +75,14 @@
                 <div class="password">Cantik123@@</div>
             </div>
         </div>
-        
+
         <div id="camad" hidden>
             <div class="icare">
                 <div class="user">0112B122-Hesti</div>
                 <div class="password">Jkn#2024%</div>
             </div>
             <div class="myKlinik">
-                <div class="kode">TYMTJ4 </div>
+                <div class="kode">TYMTJ4</div>
                 <div class="user">hesti</div>
                 <div class="password">dokter004</div>
             </div>
@@ -79,6 +91,14 @@
                 <div class="password">mutu_Madani23</div>
             </div>
         </div>
+
+        <div id="jatikita" hidden>
+            <div class="clinica">
+                <div class="user">drhestiherlinawati@gmail.com</div>
+                <div class="password">Tglnikahdr.Agung&dr.Hesti</div>
+            </div>
+        </div>
+
         <div></div>
         <div style="text-align: center;">
             <button onclick="window.location.href='penyakit.html'">🔍 Cari Penyakit</button>
