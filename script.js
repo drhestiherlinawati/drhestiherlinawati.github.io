@@ -20,14 +20,8 @@ window.onclick = function (event) {
 };
 
 function munculkanData(x) {
-    // Sembunyikan semua blok data tersembunyi
-    ['kmsc', 'camad', 'jatikita'].forEach(function (id) {
-        var el = document.getElementById(id);
-        if (el) el.hidden = true;
-    });
-    // Tampilkan blok yang dipilih
-    var aktif = document.getElementById(x);
-    if (aktif) aktif.hidden = false;
+    // Semua blok data tetap tersembunyi — hanya dibaca isinya.
+    // (Tidak ada yang di-unhide di sini.)
 
     // Referensi bagian layanan di header
     var icare = document.querySelector('#header .icare');
