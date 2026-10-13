@@ -9,7 +9,7 @@
     <body>
         <div id="header">
             <div id="dpfp">
-                <img id="pfp" src="hestiPFP.jpg" alt="Hesti">
+                <img id="pfp" src="hestiPFP.jpg" alt="Hesti" onclick="bukaFoto()">
 
                 <div id="menuPilih">
                     <button onclick="pilihTempatKerja()" class="tombolPilih">pilih tempat kerja</button>
@@ -122,7 +122,6 @@
                     <button onclick="bukaPdf('tugas1.pdf')">tugas1.pdf</button>
                     <!-- Tambah di sini nanti:
                     <button onclick="bukaPdf('tugas2.pdf')">tugas2.pdf</button>
-                    <button onclick="bukaPdf('tugas3.pdf')">tugas3.pdf</button>
                     -->
                 </div>
             </div>
@@ -133,6 +132,17 @@
             <div class="popupPdf">
                 <button class="popupTutup" onclick="tutupPdf()">✕</button>
                 <iframe id="pdfFrame" src=""></iframe>
+            </div>
+        </div>
+
+        <!-- Popup foto profil -->
+        <div id="fotoPopup" class="fotoPopupOverlay" hidden onclick="tutupFoto(event)">
+            <div class="fotoPopupIsi">
+                <img src="hestiPFP.jpg" alt="Hesti" class="fotoPopupGambar">
+                <div class="fotoPopupKontak">
+                    <a href="https://wa.me/6281290159706" target="_blank">WhatsApp : 081290159706</a>
+                    <a href="https://www.instagram.com/hestiherlinawati27595/" target="_blank">Instagram : @hestiherlinawati27595</a>
+                </div>
             </div>
         </div>
 
