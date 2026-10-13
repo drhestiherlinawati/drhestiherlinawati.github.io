@@ -1,247 +1,160 @@
-body{
-	background:#FFB8BF;
-	margin:0;
-	border:0;
-	padding:0;
+body {
+    background: #FFB8BF;
+    margin: 0;
+    padding: 0;
 }
 
+/* Supaya atribut `hidden` tetap menang atas display: grid */
+[hidden] {
+    display: none !important;
+}
 
-#header{
+#header {
     text-align: left;
     display: grid;
-    grid-template-columns: auto;
-    margin-right: 1vw;
-    margin-left: 1vw;
+    grid-template-columns: 1fr;
+    margin: 0 2vw;
+    padding-top: 3vh;
     row-gap: 3vh;
 }
 
-#dpfp{
+/* Foto + menu pilih */
+#dpfp {
     display: flex;
-    width:100vw;
-    margin-top: 5vh;
     align-items: flex-start;
+    gap: 2vw;
+    margin-top: 2vh;
 }
 
-#pfp{
-    width: 15vw;
+#pfp {
+    width: 12vw;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
-    float: left;
+    flex-shrink: 0;
 }
 
-#menuPilih{
-    margin-right: 15vw;
-    width: 100vw;
+#menuPilih {
+    flex: 1;
     text-align: center;
     position: relative;
 }
 
-.tombolPilih{
-  align-items: center;
-  background-color: #fff;
-  border: 2px solid #000;
-  box-sizing: border-box;
-  color: #000;
-  cursor: pointer;
-  display: inline-flex;
-  fill: #000;
-  font-family: Inter,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: -.8px;
-  line-height: 24px;
-  min-width: 140px;
-  outline: 0;
-  padding: 0 17px;
-  text-align: center;
-  text-decoration: none;
-  transition: all .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+.tombolPilih {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .tombolPilih:active {
-  border-color: #06f;
-  color: #06f;
-  fill: #06f;
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
 }
 
-
-.pilihan{
-  display: none;
-  background-color: #FFB8BF;
-  z-index: 1;
+/* Dropdown pilih tempat kerja */
+.pilihan {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1vh;
+    background: #FFB8BF;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 1vh 1vw;
+    gap: 1vw;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-#sip1{
-    margin-left: 5vw;
-    margin-right: auto;
-    margin-top: 5vh;
-    height: 10vh;
-    padding:0;
-    width: 25vw;
-}
-.gambarKmsc{
-    height: 10vh;
-    display: block;
-    width: 25vw;
-    
+.pilihan.show {
+    display: flex;
 }
 
-#sip2{
-    margin-left: auto;
-    margin-right: 5vw;
-    margin-top: 5vh;
-    height: 10vh;
-    width: 25vw;
+#sip1, #sip2, #sip3 {
+    width: 15vw;
+    height: 9vh;
     padding: 0;
+    margin: 0;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.gambarCamad{
-    height: 10vh;
+.gambarKmsc,
+.gambarCamad,
+.gambarJatikita {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     display: block;
-    width: 25vw;
 }
 
-#sip3{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
-    height: 10vh;
-    width: 25vw;
-    padding: 0;
-}
-
-.gambarJatikita{
-    height: 10vh;
-    display: block;
-    width: 25vw;
-}
-
-.show{
-    display: flex
-}
-
-.icare{
+/* Layout layanan: 2 kolom (kiri tombol, kanan data) */
+.icare,
+.myKlinik,
+.inm,
+.clinica {
     display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20vw;
+    grid-template-columns: 40vw 1fr;
+    column-gap: 2vw;
 }
 
-.icdata{
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 3vh;
+/* Tombol di kolom kiri selebar kolomnya */
+.icare > button,
+.inm > button,
+.clinica > button {
+    width: 100%;
 }
 
-.myKlinik{
+/* Tombol app1–app9 tetap 2 kolom, total lebar sama dengan kolom kiri */
+.mytombol {
     display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20vw;
-}
-
-.mytombol{
-    display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: 1fr 1fr;
     column-gap: 1vw;
     row-gap: 1vh;
     width: 100%;
 }
 
-.mydata{
+.mytombol > button {
+    width: 100%;
+    padding: 1vh 0.5vw;
+}
+
+/* Data di kolom kanan */
+.icdata,
+.mydata,
+.indata,
+.clindata {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     row-gap: 3vh;
-}
-
-.inm{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20vw;
-}
-
-.indata{
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 3vh;
-}
-
-.clinica{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20vw;
-}
-
-.clindata{
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 3vh;
-}
-
-/* ===== HP portrait ===== */
-@media (max-width: 600px) {
-
-    /* Foto profil tidak melebar lagi */
-    #pfp {
-        width: 22vw;
-    }
-
-    /* Grid 2 kolom: kiri tombol, kanan data */
-    .icare, .myKlinik, .inm, .clinica {
-        grid-template-columns: 1fr 1.8fr;
-        column-gap: 2vw;
-    }
-
-    /* Tombol icare / INM / Clinica Assist selebar kolom kiri
-       (otomatis sama dengan lebar app1 + app2) */
-    .icare > button,
-    .inm > button,
-    .clinica > button {
-        width: 100%;
-    }
-
-    /* Tombol app1-app9 tetap 2 kolom */
-    .mytombol {
-        column-gap: 2vw;
-        row-gap: 0.5vh;
-    }
-
-    .mytombol button {
-        width: 100%;
-    }
-
-    /* Data di kolom kanan: label atas, input tengah, Copy bawah rata kanan */
-    .icdata > div,
-    .mydata > div,
-    .indata > div,
-    .clindata > div {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0.3rem;
-    }
-
-    .icdata > div > button,
-    .mydata > div > button,
-    .indata > div > button,
-    .clindata > div > button {
-        align-self: flex-end;
-    }
-
-    .icdata input,
-    .mydata input,
-    .indata input,
-    .clindata input {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    /* Jarak antar baris data sedikit diperkecil */
-    .icdata, .mydata, .indata, .clindata {
-        row-gap: 2vh;
-    }
 }
