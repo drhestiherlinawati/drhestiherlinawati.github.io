@@ -10,6 +10,7 @@
         <div id="header">
             <div id="dpfp">
                 <img id="pfp" src="hestiPFP.jpg" alt="Hesti">
+
                 <div id="menuPilih">
                     <button onclick="pilihTempatKerja()" class="tombolPilih">pilih tempat kerja</button>
                     <div id="tempatKerja" class="pilihan">
@@ -18,6 +19,14 @@
                         <button id="sip3" onclick="munculkanData('jatikita')"><img class="gambarJatikita" src="jatikita.jpg" alt="JATIKITA"></button>
                     </div>
                 </div>
+
+                <button id="tombolUid" onclick="bukaUid()">
+                    <img src="uid.jpg" alt="UID" class="gambarUid">
+                    <span class="uidTeks">
+                        <span>S2 MM</span>
+                        <span>6326001</span>
+                    </span>
+                </button>
             </div>
 
             <div class="icare">
@@ -102,6 +111,31 @@
         <div style="text-align: center; margin-top: 3vh;">
             <button onclick="window.location.href='penyakit.html'">🔍 Cari Penyakit</button>
         </div>
+
+        <!-- Popup daftar pilihan UID -->
+        <div id="uidPopup" class="popupOverlay" hidden>
+            <div class="popupBox">
+                <button class="popupTutup" onclick="tutupUid()">✕</button>
+                <h3>Pilihan</h3>
+                <div class="uidPilihan">
+                    <button onclick="bukaPbdikti()">pbdikti</button>
+                    <button onclick="bukaPdf('tugas1.pdf')">tugas1.pdf</button>
+                    <!-- Tambah di sini nanti:
+                    <button onclick="bukaPdf('tugas2.pdf')">tugas2.pdf</button>
+                    <button onclick="bukaPdf('tugas3.pdf')">tugas3.pdf</button>
+                    -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Popup PDF viewer -->
+        <div id="pdfPopup" class="popupOverlay" hidden>
+            <div class="popupPdf">
+                <button class="popupTutup" onclick="tutupPdf()">✕</button>
+                <iframe id="pdfFrame" src=""></iframe>
+            </div>
+        </div>
+
         <script src="script.js"></script>
     </body>
 </html>
