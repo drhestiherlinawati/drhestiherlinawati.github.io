@@ -322,3 +322,64 @@ body {
 .fotoPopupKontak a:hover {
     color: #FFB8BF;
 }
+
+/* ===== Desktop ===== */
+@media (min-width: 601px) {
+
+    /* Konten di tengah, sisa space kiri = kanan */
+    #header {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        box-sizing: border-box;
+    }
+
+    /* Baris atas: 3 kolom sama lebar, foto kiri, tombol tengah, UID kanan */
+    #dpfp {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Foto 80px, bulat sempurna */
+    #pfp {
+        width: 80px;
+        height: 80px;
+        justify-self: start;
+    }
+
+    /* Tombol pilih tempat kerja benar-benar di tengah */
+    #menuPilih {
+        justify-self: center;
+    }
+
+    /* Tinggi tombol disamakan dengan foto */
+    .tombolPilih {
+        height: 80px;
+    }
+
+    #tombolUid {
+        height: 80px;
+        box-sizing: border-box;
+        justify-self: end;
+    }
+
+    .gambarUid {
+        height: 60px;
+        width: 60px;
+    }
+
+    /* Kolom kiri/kanan pakai % supaya proporsional dengan container */
+    .icare,
+    .myKlinik,
+    .inm,
+    .clinica {
+        grid-template-columns: 40% 1fr;
+    }
+
+    /* Label rata kanan, lebar tetap → titik dua sejajar */
+    .label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+    }
+}
