@@ -24,12 +24,14 @@ function munculkanData(x) {
     var myKlinik = document.querySelector('#header .myKlinik');
     var inm = document.querySelector('#header .inm');
     var clinica = document.querySelector('#header .clinica');
+    var kmscExtra = document.getElementById('kmscExtra');
 
     if (x === 'jatikita') {
         icare.hidden = true;
         myKlinik.hidden = true;
         inm.hidden = true;
         clinica.hidden = false;
+        kmscExtra.hidden = true;
 
         document.querySelector('#header .clinica .user').value =
             document.querySelector('#jatikita .clinica .user').innerHTML;
@@ -40,6 +42,9 @@ function munculkanData(x) {
         myKlinik.hidden = false;
         inm.hidden = false;
         clinica.hidden = true;
+
+        // Tombol tambahan hanya muncul kalau KMSC
+        kmscExtra.hidden = (x !== 'kmsc');
 
         document.querySelector('#header .icare .user').value =
             document.querySelector('#' + x + ' .icare .user').innerHTML;
@@ -88,7 +93,7 @@ function bukaPdf(namaFile) {
     document.getElementById('uidPopup').hidden = true;
 
     var frame = document.getElementById('pdfFrame');
-    frame.src = namaFile + '#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
+    frame.src = encodeURI(namaFile) + '#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
 
     document.getElementById('pdfPopup').hidden = false;
 }
