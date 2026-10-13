@@ -85,19 +85,28 @@ function bukaPbdikti() {
 }
 
 function bukaPdf(namaFile) {
-    // Tutup popup daftar pilihan
     document.getElementById('uidPopup').hidden = true;
 
-    // Set sumber PDF, parameter URL menyembunyikan toolbar PDF viewer bawaan browser
     var frame = document.getElementById('pdfFrame');
     frame.src = namaFile + '#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
 
-    // Tampilkan popup PDF
     document.getElementById('pdfPopup').hidden = false;
 }
 
 function tutupPdf() {
     var frame = document.getElementById('pdfFrame');
-    frame.src = ''; // hentikan loading PDF
+    frame.src = '';
     document.getElementById('pdfPopup').hidden = true;
+}
+
+/* ==== Popup foto profil ==== */
+
+function bukaFoto() {
+    document.getElementById('fotoPopup').hidden = false;
+}
+
+function tutupFoto(event) {
+    if (event.target.id === 'fotoPopup') {
+        document.getElementById('fotoPopup').hidden = true;
+    }
 }
